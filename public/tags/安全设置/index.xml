@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全设置 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E5%AE%89%E5%85%A8%E8%AE%BE%E7%BD%AE/</link><description>Recent content in 安全设置 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E5%AE%89%E5%85%A8%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 初次设置完整指南</title><link>https://signalhow.com/guides/setup/</link><pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/setup/</guid><description>&lt;p&gt;完成 Signal 注册后，建议立即进行以下隐私和安全设置，最大化保护你的通讯隐私。&lt;/p&gt;
+&lt;h2 id="1-关闭已读回执"&gt;1. 关闭已读回执&lt;/h2&gt;
+&lt;p&gt;已读回执会让对方知道你已经阅读了消息。如果你不想暴露这个信息：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设置 → 隐私 → 已读回执 → 关闭&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;关闭后，你也不会看到对方是否已读你的消息（对称设置）。&lt;/p&gt;
+&lt;h2 id="2-关闭输入指示器"&gt;2. 关闭输入指示器&lt;/h2&gt;
+&lt;p&gt;输入指示器会显示&amp;quot;正在输入…&amp;quot;，让消息的实时性暴露。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设置 → 隐私 → 输入指示器 → 关闭&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="3-关闭链接预览"&gt;3. 关闭链接预览&lt;/h2&gt;
+&lt;p&gt;链接预览会在聊天中显示链接的缩略图和标题。这会暴露你在聊什么内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设置 → 隐私 → 链接预览 → 关闭&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class="callout callout-info"&gt;
+ &lt;div class="callout-title"&gt;为什么关闭链接预览？&lt;/div&gt;
+ 链接预览需要 Signal 向目标网站请求内容，这会泄露你在聊天的上下文信息。关闭后链接仍然可以点击打开，只是不会在聊天中显示预览。
+&lt;/div&gt;
+
+&lt;h2 id="4-启用信号-pin"&gt;4. 启用信号 PIN&lt;/h2&gt;
+&lt;p&gt;Signal PIN 用于账户恢复和安全验证。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设置 → 账户 → 信号 PIN → 启用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;建议设置一个你能记住但不容易被猜到的 PIN。&lt;/p&gt;
+&lt;h2 id="5-设置应用锁"&gt;5. 设置应用锁&lt;/h2&gt;
+&lt;p&gt;防止他人在你不在时打开 Signal 查看消息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;设置 → 隐私 → 应用锁 → 启用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;支持指纹、面容或系统密码锁定。&lt;/p&gt;
+&lt;h2 id="6-验证安全号码"&gt;6. 验证安全号码&lt;/h2&gt;
+&lt;p&gt;与重要联系人交换密钥指纹，确保通讯没有被中间人攻击。&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>加密 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E5%8A%A0%E5%AF%86/</link><description>Recent content in 加密 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E5%8A%A0%E5%AF%86/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 安全吗？2026 年全面安全评估</title><link>https://signalhow.com/safety/is-signal-safe/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/safety/is-signal-safe/</guid><description>&lt;p&gt;Signal 被广泛认为是最安全的消费级加密通讯应用。本文从多个技术维度评估 Signal 的安全性。&lt;/p&gt;
+&lt;h2 id="加密协议signal-protocol"&gt;加密协议：Signal Protocol&lt;/h2&gt;
+&lt;p&gt;Signal Protocol 是 Signal 应用的核心安全基础，具有以下特性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;端对端加密（E2EE）&lt;/strong&gt; — 只有通讯双方可以解密消息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前向保密&lt;/strong&gt; — 每次会话使用新密钥，即使密钥泄露也无法解密历史消息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来保密&lt;/strong&gt; — 即使未来量子计算机出现，也无法解密当前的消息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;双棘轮协议&lt;/strong&gt; — 结合 KDF 链棘轮和 DH 棘轮，提供持续的安全密钥更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Signal Protocol 已被 WhatsApp、Google Messages、Facebook Messenger 等主流应用采用，是业界标准。&lt;/p&gt;
+&lt;h2 id="开源与可审计性"&gt;开源与可审计性&lt;/h2&gt;
+&lt;p&gt;Signal 的所有核心组件都是开源的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;客户端&lt;/strong&gt; — Android、iOS、桌面端全部开源（GitHub）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;服务端&lt;/strong&gt; — Signal 服务器代码开源&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;加密协议&lt;/strong&gt; — Signal Protocol 有完整的学术规范&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着全球安全研究者可以审查 Signal 的代码，发现潜在的安全问题。&lt;/p&gt;
+&lt;h2 id="独立安全审计"&gt;独立安全审计&lt;/h2&gt;
+&lt;p&gt;Signal 定期接受第三方安全机构的审计：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cure53&lt;/strong&gt; — 德国安全公司，多次审计 Signal 客户端&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ISE（Independent Security Evaluators）&lt;/strong&gt; — 独立安全评估机构&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trail of Bits&lt;/strong&gt; — 知名安全审计公司&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所有审计报告均公开发布，审计中发现的任何问题都会被及时修复。&lt;/p&gt;</description></item></channel></rss>

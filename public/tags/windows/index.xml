@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/windows/</link><description>Recent content in Windows on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal Windows 下载</title><link>https://signalhow.com/download/windows/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/download/windows/</guid><description>&lt;h2 id="signal-windows-版下载"&gt;Signal Windows 版下载&lt;/h2&gt;
+&lt;p&gt;Signal 桌面版支持 Windows 10（64-bit）及以上系统，让你可以在电脑上方便地使用 Signal。&lt;/p&gt;
+&lt;h2 id="下载与安装"&gt;下载与安装&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;访问 signal.org 下载 Windows 安装包&lt;/li&gt;
+&lt;li&gt;运行下载的 &lt;code&gt;.exe&lt;/code&gt; 安装程序&lt;/li&gt;
+&lt;li&gt;按提示完成安装&lt;/li&gt;
+&lt;li&gt;打开 Signal 桌面版，扫描手机上的二维码关联设备&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="关联手机"&gt;关联手机&lt;/h2&gt;
+&lt;p&gt;桌面版需要先在手机上安装 Signal 并完成注册。关联步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;手机打开 Signal → 设置 → 关联设备&lt;/li&gt;
+&lt;li&gt;点击&amp;quot;关联新设备&amp;quot;&lt;/li&gt;
+&lt;li&gt;用手机扫描电脑上的二维码&lt;/li&gt;
+&lt;li&gt;等待同步完成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="系统要求"&gt;系统要求&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 64-bit 或更高版本&lt;/li&gt;
+&lt;li&gt;64 位处理器&lt;/li&gt;
+&lt;li&gt;约 200MB 磁盘空间&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="callout callout-info"&gt;
+ &lt;div class="callout-title"&gt;独立模式&lt;/div&gt;
+ Signal 最新版本支持独立桌面使用，不再需要手机在线即可收发消息。首次关联手机后，桌面版可以独立工作。
+&lt;/div&gt;</description></item></channel></rss>

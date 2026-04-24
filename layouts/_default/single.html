@@ -1,0 +1,145 @@
+{{ define "main" }}
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb-bar">
+  <div class="breadcrumb">
+    <a href="/">首页</a>
+    <span class="sep">/</span>
+    {{- if .Parent }}
+    <a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a>
+    <span class="sep">/</span>
+    {{- end }}
+    <span class="current">{{ .Title }}</span>
+  </div>
+</div>
+
+<!-- ARTICLE -->
+<div class="article-layout">
+  <!-- Main Content -->
+  <main class="article-main">
+
+    <!-- Header -->
+    <div class="article-header">
+      {{- with .Params.category }}
+      <div class="article-tag">{{ with $.Params.emoji }}{{ . }} {{ end }}{{ . }}</div>
+      {{- end }}
+      <h1>{{ .Title }}</h1>
+      <div class="article-meta">
+        <span class="article-meta-item">&#128197; {{ .Date.Format "2006年1月2日" }}</span>
+        {{- with .Params.readTime }}
+        <span class="article-meta-item">&#9201; 阅读约 {{ . }}</span>
+        {{- end }}
+        {{- with .Params.tags }}
+        <span class="article-meta-item">&#127991; {{ delimit . ", " }}</span>
+        {{- end }}
+      </div>
+    </div>
+
+    <!-- Cover -->
+    <div class="article-cover">
+      <div class="article-cover-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+        <span>{{ .Title }}</span>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <article class="article-content">
+      {{ .Content }}
+
+      <!-- In-article CTA -->
+      <div class="article-cta">
+        <h4>&#128241; 准备好了吗？立即下载 Signal</h4>
+        <p>加入全球 5 亿用户，体验最安全的加密通讯</p>
+        <a href="/download/android/" class="article-cta-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          免费下载 Signal APK
+        </a>
+      </div>
+    </article>
+
+    <!-- Tags -->
+    {{- with .Params.tags }}
+    <div class="article-tags">
+      {{- range . }}
+      <a href="/tags/{{ . | urlquery }}/" class="article-tag-item">{{ . }}</a>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    <!-- Author -->
+    <div class="author-box">
+      <div class="author-avatar">S</div>
+      <div class="author-info">
+        <h5>{{ .Site.Params.author }}</h5>
+        <p>专注加密通讯安全研究，为中文用户提供 Signal 使用教程、安全分析和最新动态。我们的内容经过技术审核，确保信息准确可靠。</p>
+      </div>
+    </div>
+
+    <!-- Related Articles -->
+    {{- $currentPage := . }}
+    {{- $related := where .Site.RegularPages "Section" .Section | shuffle | first 3 }}
+    {{- if gt (len $related) 0 }}
+    <div class="related-articles">
+      <h3>相关阅读</h3>
+      <div class="related-grid">
+        {{- range $related }}
+        {{- if ne .Permalink $currentPage.Permalink }}
+        <a class="related-card" href="{{ .Permalink }}">
+          <div class="related-tag">{{ with .Params.category }}{{ . }}{{ else }}文章{{ end }}</div>
+          <h4>{{ .Title }}</h4>
+          <p>{{ .Description }}</p>
+        </a>
+        {{- end }}
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+
+  </main>
+
+  <!-- Sidebar -->
+  <aside class="article-sidebar">
+
+    <!-- TOC -->
+    {{- if .TableOfContents }}
+    <div class="sidebar-toc">
+      <h4>目录导航</h4>
+      <ul class="toc-list">
+        {{- .TableOfContents }}
+      </ul>
+    </div>
+    {{- end }}
+
+    <!-- Download Card -->
+    <div class="sidebar-download">
+      <h4>&#128245; 下载 Signal</h4>
+      <p>最新版 v{{ .Site.Params.signalVersion }} &middot; 安全加密</p>
+      <a href="/download/android/" class="sidebar-download-btn">免费下载 APK</a>
+      <div class="sidebar-download-meta">51.2 MB &middot; SHA256 已校验</div>
+    </div>
+
+    <!-- Related in sidebar -->
+    {{- $sidebarRelated := where .Site.RegularPages "Section" .Section | shuffle | first 4 }}
+    {{- if gt (len $sidebarRelated) 0 }}
+    <div class="sidebar-related">
+      <h4>推荐阅读</h4>
+      <ul class="sidebar-related-list">
+        {{- range $sidebarRelated }}
+        {{- if ne .Permalink $currentPage.Permalink }}
+        <li>
+          <a href="{{ .Permalink }}">
+            <span class="sr-tag">{{ with .Params.category }}{{ . }}{{ else }}文章{{ end }}</span>
+            {{ .Title }}
+          </a>
+        </li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+
+  </aside>
+</div>
+
+{{ end }}

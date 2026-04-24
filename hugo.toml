@@ -1,3 +1,38 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://signalhow.com/'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh'
+title = 'SignalHow - Signal 中文指南与安全下载'
+description = 'Signal 使用教程、安全分析、多平台下载。最全面的 Signal 中文资源站，涵盖注册、设置、对比评测、常见问题解答。'
+theme = ''
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  brand = 'SignalHow'
+  tagline = 'Signal 中文指南与安全下载'
+  ogImage = '/images/og-default.png'
+  signalVersion = '7.16.0'
+  author = 'SignalHow 编辑部'
+  [params.nav]
+    items = [
+      { name = '下载', url = '/download/' },
+      { name = '教程', url = '/guides/' },
+      { name = '对比', url = '/compare/' },
+      { name = '安全', url = '/safety/' },
+      { name = 'FAQ', url = '/faq/' },
+    ]
+
+[taxonomies]
+  tag = 'tags'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']

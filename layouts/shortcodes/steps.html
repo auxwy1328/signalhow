@@ -1,0 +1,5 @@
+<div class="steps">
+  {{- $steps := .Inner | markdownify }}
+  {{- /* Render inner content as step items */}}
+  {{ .Inner }}
+</div>

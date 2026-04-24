@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MacOS on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/macos/</link><description>Recent content in MacOS on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/macos/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal macOS 下载</title><link>https://signalhow.com/download/mac/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/download/mac/</guid><description>&lt;h2 id="signal-macos-版下载"&gt;Signal macOS 版下载&lt;/h2&gt;
+&lt;p&gt;Signal macOS 版支持 macOS 10.13（High Sierra）及以上系统。&lt;/p&gt;
+&lt;h2 id="下载方式"&gt;下载方式&lt;/h2&gt;
+&lt;h3 id="方式一app-store"&gt;方式一：App Store&lt;/h3&gt;
+&lt;p&gt;在 Mac App Store 中搜索&amp;quot;Signal&amp;quot;直接安装，这是最推荐的方式。&lt;/p&gt;
+&lt;h3 id="方式二官网下载"&gt;方式二：官网下载&lt;/h3&gt;
+&lt;p&gt;从 signal.org 下载 &lt;code&gt;.dmg&lt;/code&gt; 安装包，提供 Intel 和 Apple Silicon（M1/M2/M3）两个版本。&lt;/p&gt;
+&lt;h2 id="安装步骤"&gt;安装步骤&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载 &lt;code&gt;.dmg&lt;/code&gt; 文件&lt;/li&gt;
+&lt;li&gt;打开 DMG 文件&lt;/li&gt;
+&lt;li&gt;将 Signal 拖入 Applications 文件夹&lt;/li&gt;
+&lt;li&gt;首次打开可能需要在&amp;quot;系统偏好设置 → 安全性与隐私&amp;quot;中允许&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="关联手机"&gt;关联手机&lt;/h2&gt;
+&lt;p&gt;安装后打开 Signal，用手机扫描二维码即可关联设备。&lt;/p&gt;
+&lt;h2 id="系统要求"&gt;系统要求&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;macOS 10.13 及以上&lt;/li&gt;
+&lt;li&gt;Intel 或 Apple Silicon 处理器&lt;/li&gt;
+&lt;li&gt;约 150MB 磁盘空间&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,0 +1,251 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">
+    <span class="dot"></span>
+    最新版本 v{{ .Site.Params.signalVersion }} 已发布
+  </div>
+  <h1>全球最安全的<br><span class="blue">加密通讯工具</span></h1>
+  <p class="hero-desc">Signal 使用端对端加密保护你的每一条消息、每一通电话。由非营利组织运营，代码完全开源，零广告零追踪。</p>
+  <p class="hero-version">当前最新版 <span>v{{ .Site.Params.signalVersion }}</span> &middot; 更新于 2026年4月</p>
+
+  <div class="download-tabs">
+    <a href="/download/android/" class="download-tab active" onclick="switchTab(this); return false;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 16V8a7 7 0 0 1 14 0v8"/><path d="M12 20v-8"/><path d="m8 16 4 4 4-4"/></svg>
+      Android
+    </a>
+    <a href="/download/ios/" class="download-tab" onclick="switchTab(this); return false;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18.01"/></svg>
+      iOS
+    </a>
+    <a href="/download/windows/" class="download-tab" onclick="switchTab(this); return false;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      Windows
+    </a>
+    <a href="/download/mac/" class="download-tab" onclick="switchTab(this); return false;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+      Mac
+    </a>
+    <a href="/download/linux/" class="download-tab" onclick="switchTab(this); return false;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10A15 15 0 0 1 12 2z"/></svg>
+      Linux
+    </a>
+  </div>
+
+  <a href="/download/android/" class="download-main-btn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    免费下载 Signal APK
+  </a>
+  <p class="download-meta"><span>51.2 MB</span> &middot; SHA256 校验 &middot; 无广告无捆绑</p>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item">
+    <div class="trust-number">500M+</div>
+    <div class="trust-label">全球用户</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-number">100%</div>
+    <div class="trust-label">开源代码</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-number">E2EE</div>
+    <div class="trust-label">端对端加密</div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-number">零</div>
+    <div class="trust-label">广告与追踪</div>
+  </div>
+</div>
+
+<!-- LATEST UPDATES -->
+{{- $pages := where .Site.RegularPages "Kind" "page" }}
+{{- $latest := first 4 (sort $pages "Date" "desc") }}
+{{- if $latest }}
+<div class="updates-section" id="updates">
+  <div class="updates-header">
+    <div class="updates-header-left">
+      <h2>&#128221; 最新更新</h2>
+      <span class="updates-count">{{ len $latest }} 篇新内容</span>
+    </div>
+  </div>
+  <div class="updates-grid">
+    {{- range $i, $p := $latest }}
+    {{- $isFeatured := eq $i 0 }}
+    <a class="update-card{{ if $isFeatured }} featured update-new{{ end }}" href="{{ $p.Permalink }}">
+      <div class="update-thumb">{{ with $p.Params.emoji }}{{ . }}{{ else }}&#128196;{{ end }}</div>
+      <div class="update-content">
+        <div class="update-meta">
+          <span class="update-tag {{ with $p.Params.tagClass }}{{ . }}{{ else }}tag-update{{ end }}">{{ with $p.Params.category }}{{ . }}{{ else }}文章{{ end }}</span>
+          <span>{{ $p.Date.Format "2006.01.02" }}</span>
+        </div>
+        <h4>{{ $p.Title }}</h4>
+        <p>{{ $p.Description }}</p>
+      </div>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+
+<!-- GUIDES -->
+{{- $guides := where .Site.RegularPages "Section" "guides" }}
+{{- if $guides }}
+<section class="section section-wide" id="guides">
+  <div class="section-header">
+    <div class="section-tag">使用教程</div>
+    <h2>从入门到精通</h2>
+    <p>详细的中文教程，帮你快速上手 Signal 的每一个功能</p>
+  </div>
+  <div class="guides-grid">
+    {{- range $guides }}
+    <a class="guide-card" href="{{ .Permalink }}">
+      <div class="guide-card-icon {{ with .Params.iconClass }}{{ . }}{{ else }}icon-blue{{ end }}">{{ with .Params.emoji }}{{ . }}{{ else }}&#128214;{{ end }}</div>
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Description }}</p>
+      <div class="guide-card-footer">阅读教程 &rarr;</div>
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+<!-- COMPARE -->
+{{- $compares := where .Site.RegularPages "Section" "compare" }}
+{{- if $compares }}
+<section class="section section-wide" id="compare">
+  <div class="section-header">
+    <div class="section-tag">对比评测</div>
+    <h2>Signal 和其他应用有什么不同？</h2>
+    <p>从加密技术、隐私保护、功能体验等多维度横向对比</p>
+  </div>
+  <div class="compare-grid">
+    {{- range $compares }}
+    <div class="compare-card">
+      <div class="compare-vs">
+        <div class="compare-app">
+          <div class="compare-app-icon signal-icon">S</div>
+          <span class="compare-app-name">Signal</span>
+        </div>
+        <span class="compare-vs-text">VS</span>
+        <div class="compare-app">
+          <div class="compare-app-icon {{ with .Params.vsIconClass }}{{ . }}{{ else }}telegram-icon{{ end }}">{{ with .Params.vsLetter }}{{ . }}{{ else }}T{{ end }}</div>
+          <span class="compare-app-name">{{ with .Params.vsName }}{{ . }}{{ else }}Telegram{{ end }}</span>
+        </div>
+      </div>
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Description }}</p>
+      {{- with .Params.compareTags }}
+      <div class="compare-tags">
+        {{- range . }}
+        <span class="compare-tag">{{ . }}</span>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+<!-- SAFETY -->
+<section class="section section-wide" id="safety">
+  <div class="section-header">
+    <div class="section-tag">安全分析</div>
+    <h2>为什么 Signal 是最安全的选择？</h2>
+    <p>从技术架构到独立审计，全面解读 Signal 的安全设计</p>
+  </div>
+  <div class="safety-features">
+    <div class="safety-item">
+      <div class="safety-icon">🔒</div>
+      <h4><a href="/safety/is-signal-safe/" style="color:var(--text-primary);text-decoration:none;">端对端加密</a></h4>
+      <p>Signal Protocol 每条消息独立加密，即使服务器被入侵也无法读取</p>
+    </div>
+    <div class="safety-item">
+      <div class="safety-icon">📂</div>
+      <h4>完全开源</h4>
+      <p>客户端、服务端、协议全部开源，任何人都可以审查代码</p>
+    </div>
+    <div class="safety-item">
+      <div class="safety-icon">🔍</div>
+      <h4>独立审计</h4>
+      <p>经过 Cure53、ISE 等多家安全机构审计，结果公开</p>
+    </div>
+    <div class="safety-item">
+      <div class="safety-icon">🛡️</div>
+      <h4>最小元数据</h4>
+      <p>不记录谁在跟谁说话、什么时候说话，最大限度保护隐私</p>
+    </div>
+    <div class="safety-item">
+      <div class="safety-icon">🏆</div>
+      <h4>非营利运营</h4>
+      <p>Signal Foundation 运营，没有广告、没有数据出售的商业动机</p>
+    </div>
+    <div class="safety-item">
+      <div class="safety-icon">🌍</div>
+      <h4>前向保密</h4>
+      <p>每次生成新密钥，即使设备丢失也无法解密历史消息</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-wide" id="faq">
+  <div class="section-header">
+    <div class="section-tag">常见问题</div>
+    <h2>你可能想知道的</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)" role="button" aria-expanded="false" aria-controls="faq-a1">
+        Signal 在中国大陆能用吗？
+        <span class="arrow">&#9660;</span>
+      </div>
+      <div class="faq-answer" id="faq-a1">Signal 在中国大陆被网络限制，直接访问 signal.org 和使用 Signal 服务都需要稳定的网络环境。本站提供的 APK 安装包可以直接下载，但注册和使用 Signal 时需要能够接收短信验证码。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)" role="button" aria-expanded="false" aria-controls="faq-a2">
+        Signal 注册收不到验证码怎么办？
+        <span class="arrow">&#9660;</span>
+      </div>
+      <div class="faq-answer" id="faq-a2">收不到验证码的常见原因：1) 手机号格式问题，确保输入 +86 开头的完整号码；2) 信号问题，尝试切换网络环境；3) 被运营商拦截，尝试 15 分钟后重新获取。如果多次失败，可以尝试使用短信验证码替代电话验证。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)" role="button" aria-expanded="false" aria-controls="faq-a3">
+        Signal 和 Telegram 哪个更安全？
+        <span class="arrow">&#9660;</span>
+      </div>
+      <div class="faq-answer" id="faq-a3">从加密安全角度，Signal 更安全。Signal 默认对所有聊天启用端对端加密，而 Telegram 只有在手动创建"私密聊天"时才使用端对端加密，普通聊天存储在 Telegram 服务器上。此外，Signal 收集的元数据远少于 Telegram。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)" role="button" aria-expanded="false" aria-controls="faq-a4">
+        Signal 是免费的吗？
+        <span class="arrow">&#9660;</span>
+      </div>
+      <div class="faq-answer" id="faq-a4">是的，Signal 完全免费，没有订阅费用、没有广告、没有应用内购买。它由 Signal Foundation（非营利组织）运营，资金来自捐款和拨款。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)" role="button" aria-expanded="false" aria-controls="faq-a5">
+        换手机后聊天记录会丢失吗？
+        <span class="arrow">&#9660;</span>
+      </div>
+      <div class="faq-answer" id="faq-a5">不会。Signal 提供了设备迁移功能，可以在新手机上直接从旧手机传输所有聊天记录。也可以通过 Signal 的备份功能将聊天记录加密备份到本地，然后在新设备上恢复。</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="section">
+  <div class="cta-banner">
+    <h3>准备好了吗？立即开始使用 Signal</h3>
+    <p>加入全球 5 亿用户，用最安全的方式保护你的每一次对话</p>
+    <a href="/download/android/" class="download-main-btn" style="display:inline-flex">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      免费下载 Signal
+    </a>
+  </div>
+</div>
+
+{{ end }}

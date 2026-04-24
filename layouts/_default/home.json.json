@@ -1,0 +1,5 @@
+{{- $.Scratch.Add "pages" slice }}
+{{- range where .Site.RegularPages "Kind" "page" }}
+{{- $.Scratch.Add "pages" (dict "title" .Title "url" .Permalink "date" (.Date.Format "2006-01-02") "description" .Description) }}
+{{- end }}
+{{- dict "title" .Site.Title "url" .Site.BaseURL "description" .Site.Params.Description "pages" ($.Scratch.Get "pages") | jsonify }}

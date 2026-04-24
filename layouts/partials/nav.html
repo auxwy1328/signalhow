@@ -1,0 +1,15 @@
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-icon">S</div>
+      <div class="nav-logo-text">Signal<span>How</span></div>
+    </a>
+    <ul class="nav-links">
+      {{- $current := .RelPermalink }}
+      {{- range .Site.Params.nav.items }}
+      <li><a href="{{ .url }}"{{ if eq $current .url }} class="active"{{ end }}>{{ .name }}</a></li>
+      {{- end }}
+      <li><a href="/download/" class="nav-cta">立即下载</a></li>
+    </ul>
+  </div>
+</nav>
