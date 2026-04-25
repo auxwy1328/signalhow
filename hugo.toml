@@ -4,8 +4,24 @@ defaultContentLanguage = 'zh'
 title = 'SignalHow - Signal 中文指南与安全下载'
 description = 'Signal 使用教程、安全分析、多平台下载。最全面的 Signal 中文资源站，涵盖注册、设置、对比评测、常见问题解答。'
 theme = ''
-paginate = 10
+paginate = 12
 enableRobotsTXT = true
+enableGitInfo = true
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.8
+  filename = 'sitemap.xml'
+
+[minify]
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+      keepEndTags = true
+    [minify.tdewolff.css]
+      keepQuotes = true
+      precision = 0
 
 [params]
   brand = 'SignalHow'
@@ -24,6 +40,13 @@ enableRobotsTXT = true
 
 [taxonomies]
   tag = 'tags'
+  category = 'categories'
+
+[permalinks]
+  guides = '/guides/:slug/'
+  compare = '/compare/:slug/'
+  safety = '/safety/:slug/'
+  download = '/download/:slug/'
 
 [markup]
   [markup.goldmark]
@@ -36,3 +59,4 @@ enableRobotsTXT = true
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
+  section = ['HTML', 'RSS']
