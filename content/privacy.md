@@ -1,6 +1,6 @@
 ---
 title: "隐私政策"
-description: "SignalHow 网站的隐私政策，说明我们如何收集、使用和保护访客的个人信息。"
+description: "SignalHow 网站隐私政策：详细说明我们如何收集、使用和保护您的个人信息，包括 Cookie 使用政策、第三方服务数据处理及用户权利保障等相关内容。"
 date: 2026-04-01
 type: page
 ---

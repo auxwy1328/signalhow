@@ -1,6 +1,6 @@
 ---
 title: "Signal 下载中心"
-description: "Signal 多平台安全下载。提供 Android APK、iOS、Windows、macOS、Linux 各平台最新版本下载，所有文件经过 SHA256 校验。"
+description: "Signal 全平台安全下载中心，提供 Android APK、iOS、Windows、macOS、Linux 五大平台最新版本下载，所有安装文件均经过 SHA256 安全校验，确保下载安全无篡改。"
 date: 2026-04-01
 ---
 

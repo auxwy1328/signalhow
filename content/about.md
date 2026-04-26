@@ -1,6 +1,6 @@
 ---
 title: "关于 SignalHow"
-description: "SignalHow 是一个独立的中文资源站，为中文用户提供 Signal 使用教程、安全分析、多平台下载和对比评测。"
+description: "关于 SignalHow：我们致力于为中文用户提供最专业的 Signal 使用教程、安全分析和多平台下载服务，帮助每个人都能轻松使用 Signal 加密通讯保护个人隐私。"
 date: 2026-04-01
 type: page
 ---

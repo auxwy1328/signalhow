@@ -1,6 +1,6 @@
 ---
 title: "Signal 安全号码验证教程"
-description: "什么是安全号码？如何验证联系人身份？详解 Signal 的密钥指纹验证机制，确保通讯安全。"
+description: "Signal 安全号码验证机制详解：什么是安全号码、如何通过 QR 码或数字指纹验证联系人身份、确保端对端加密安全性，有效防范中间人攻击威胁。"
 date: 2026-04-13
 slug: "safety-number"
 section: guides

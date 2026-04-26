@@ -1,6 +1,6 @@
 ---
 title: "Signal 阅后即焚设置教程"
-description: "消息自动销毁，不留痕迹。教你设置 Signal 的定时消失消息功能，保护对话隐私安全。"
+description: "Signal 阅后即焚消息功能完整设置教程：教你如何在单个聊天和全局设置消息自动消失时间，支持从 5 秒到 4 周的自定义定时删除，保护对话隐私不留痕迹。"
 date: 2026-04-14
 slug: "disappearing-messages"
 section: guides

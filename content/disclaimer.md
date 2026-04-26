@@ -1,6 +1,6 @@
 ---
 title: "免责声明"
-description: "SignalHow 网站的免责声明，说明本站与 Signal Foundation 的关系以及内容使用限制。"
+description: "SignalHow 网站免责声明：本站与 Signal Foundation 无官方关联，所有内容仅供信息参考。Signal 及其标志为 Signal Technology Foundation 的注册商标。"
 date: 2026-04-01
 type: page
 ---

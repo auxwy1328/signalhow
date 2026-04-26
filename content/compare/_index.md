@@ -1,6 +1,6 @@
 ---
 title: "Signal 对比评测合集"
-description: "Signal 与 Telegram、WhatsApp、Threema 等主流加密通讯应用的全面对比评测，从加密技术、隐私保护、功能体验等多维度分析。"
+description: "Signal 与 Telegram、WhatsApp、Threema 等主流加密通讯应用的全面安全对比评测专题，从加密协议、隐私政策、数据收集和功能体验等多个核心维度帮你做出明智选择。"
 date: 2026-04-01
 ---
 

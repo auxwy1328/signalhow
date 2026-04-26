@@ -1,6 +1,6 @@
 ---
 title: "Signal 安全分析合集"
-description: "Signal 安全技术深度分析，涵盖端对端加密原理、开源审计报告、元数据保护、前向保密等安全特性解读。"
+description: "Signal 安全架构深度分析专题：从 Signal Protocol 端对端加密原理、开源代码独立审计、元数据最小化收集到前向保密机制等多个角度全面剖析 Signal 的安全设计理念。"
 date: 2026-04-01
 ---
 

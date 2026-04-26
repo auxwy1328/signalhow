@@ -20,10 +20,11 @@
 <meta property="og:site_name" content="SignalHow">
 <meta property="og:locale" content="zh_CN">
 {{- with .Site.Params.ogImage }}
-<meta property="og:image" content="{{ . }}">
+<meta property="og:image" content="{{ . | absURL }}">
 {{- end }}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta name="twitter:image" content="{{ .Site.Params.ogImage | absURL }}">
 <meta name="twitter:description" content="{{ $desc }}">
 
 <!-- Favicon -->

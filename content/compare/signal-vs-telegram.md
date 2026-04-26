@@ -1,6 +1,6 @@
 ---
-title: "Signal vs Telegram 深度对比：加密安全全面评测"
-description: "Signal 和 Telegram 的全面对比评测，涵盖加密技术、默认安全设置、隐私政策、开源透明度、元数据收集等多个维度。"
+title: "Signal vs Telegram 深度对比评测"
+description: "Signal 与 Telegram 全面安全对比评测：从端对端加密机制、默认安全设置、元数据收集和开源透明度等维度深入分析两者在用户隐私保护上的根本性差异。"
 date: 2026-04-15
 slug: "signal-vs-telegram"
 tags: ["Signal", "Telegram", "对比评测", "加密安全", "隐私保护"]

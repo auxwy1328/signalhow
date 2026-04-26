@@ -1,6 +1,6 @@
 ---
 title: "Signal Android 下载"
-description: "Signal Android 最新版 APK 免费下载，包含 SHA256 校验信息，安全无捆绑。支持 Android 6.0 及以上系统。"
+description: "Signal Android 最新版 APK 免费安全下载，包含完整的 SHA256 安全校验信息，支持 Android 6.0 及以上系统。提供 Google Play 和 APK 直接安装两种方式，适合中国大陆用户。"
 date: 2026-04-15
 slug: "android"
 tags: ["Signal", "Android", "APK下载"]

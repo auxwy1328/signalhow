@@ -1,6 +1,6 @@
 ---
 title: "Signal 注册教程：从下载到完成注册的完整指南"
-description: "手把手教你完成 Signal 注册，包括 Android 和 iOS 的下载安装步骤、手机号验证方法，以及注册过程中常见问题的解决方案。"
+description: "Signal 注册完整图文教程：从下载安装到手机号验证的每一步详细操作指引，包含 Android 和 iOS 两个平台的具体步骤，以及注册过程中验证码收不到等常见问题的解决方案。"
 date: 2026-04-15
 slug: "registration"
 tags: ["Signal", "注册教程", "入门指南", "手机号验证", "APK下载"]

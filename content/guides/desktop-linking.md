@@ -1,6 +1,6 @@
 ---
 title: "Signal 桌面版关联手机教程"
-description: "在电脑上使用 Signal。支持 Windows、Mac、Linux，扫码即可关联手机，同步消息。"
+description: "Signal 桌面版关联手机完整教程：支持 Windows、macOS、Linux 三大平台，通过二维码扫描即可关联手机同步所有消息，让你在电脑上也能安全便捷地使用 Signal。"
 date: 2026-04-12
 slug: "desktop-link"
 section: guides

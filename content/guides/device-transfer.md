@@ -1,6 +1,6 @@
 ---
 title: "Signal 换机迁移聊天记录完整教程"
-description: "换新手机不丢消息。详细介绍如何将 Signal 聊天记录完整迁移到新设备，支持 Android 和 iOS 跨平台迁移。"
+description: "Signal 换手机聊天记录完整迁移教程：详细介绍如何通过设备直连传输功能将所有聊天记录、媒体文件和设置迁移到新设备，支持 Android 到 iOS 等跨平台无缝迁移。"
 date: 2026-04-15
 slug: "change-phone"
 section: guides

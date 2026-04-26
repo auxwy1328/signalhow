@@ -5,7 +5,7 @@
   "name": "SignalHow",
   "url": "{{ .Site.BaseURL }}",
   "logo": "{{ .Site.BaseURL }}favicon.ico",
-  "description": "{{ .Site.Params.Description }}"
+  "description": "SignalHow 是最全面的 Signal 中文资源站，提供使用教程、安全分析、多平台下载和对比评测服务。"
 }
 </script>
 <script type="application/ld+json">
@@ -14,7 +14,7 @@
   "@type": "WebSite",
   "name": "SignalHow",
   "url": "{{ .Site.BaseURL }}",
-  "description": "{{ .Site.Params.Description }}"
+  "description": "最全面的 Signal 中文资源站，涵盖注册教程、隐私设置、安全分析和多平台下载。"
 }
 </script>
 
@@ -25,7 +25,7 @@
   "@type": "WebSite",
   "name": "SignalHow",
   "url": "{{ .Site.BaseURL }}",
-  "description": "{{ .Site.Params.Description }}",
+  "description": "最全面的 Signal 中文资源站，涵盖注册教程、隐私设置、安全分析和多平台下载。",
   "potentialAction": {
     "@type": "SearchAction",
     "target": "{{ .Site.BaseURL }}search?q={search_term_string}",
@@ -39,8 +39,6 @@
 {{- $pageType := "Article" }}
 {{- if eq .Section "download" }}
   {{- $pageType = "SoftwareApplication" }}
-{{- else if eq .Section "faq" }}
-  {{- $pageType = "FAQPage" }}
 {{- end }}
 <script type="application/ld+json">
 {
@@ -60,6 +58,30 @@
   "description": "{{ .Description }}"
 }
 </script>
+{{- end }}
+
+{{- if eq .Section "faq" }}
+{{- with .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $q := . }}
+    {{- if gt $i 0 }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $q.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $q.a | jsonify }}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
 {{- end }}
 
 {{- if not .IsHome }}

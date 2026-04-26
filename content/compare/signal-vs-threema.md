@@ -1,6 +1,6 @@
 ---
 title: "Signal 和 Threema 怎么选？"
-description: "Threema 付费但无需手机号，Signal 免费但需要注册。从匿名性、安全性、易用性三个维度详细对比 Signal 和 Threema。"
+description: "Signal 与 Threema 加密通讯应用详细对比：从匿名注册机制、付费商业模式、加密安全技术和瑞士数据隐私法保护等核心维度帮助你选择最适合的加密通讯工具。"
 date: 2026-04-13
 slug: "signal-vs-threema"
 section: compare
