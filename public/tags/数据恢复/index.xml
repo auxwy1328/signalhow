@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据恢复 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D/</link><description>Recent content in 数据恢复 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 26 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 备份聊天记录完整教程</title><link>https://signalhow.com/guides/backup/</link><pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/backup/</guid><description>&lt;p&gt;Signal 提供了多种备份方案来保护你的聊天记录和媒体文件。无论你使用 Android 还是 iOS，都可以将重要的对话内容安全地备份，在需要时快速恢复到新设备。本文详细介绍 Signal 备份与恢复的完整操作流程。&lt;/p&gt;
+&lt;h2 id="signal-备份机制概述"&gt;Signal 备份机制概述&lt;/h2&gt;
+&lt;p&gt;Signal 的备份设计遵循&lt;strong&gt;最小信任原则&lt;/strong&gt;——尽可能减少对第三方云服务的依赖，将数据控制权留在用户手中：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Android&lt;/strong&gt;：备份文件存储在本地设备上，不依赖任何云端服务。备份文件使用你设置的加密密钥（30 位字符的加密短语）进行 AES-256 加密，即使手机丢失被人获取了备份文件，没有密钥也无法解密其中的内容&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iOS&lt;/strong&gt;：支持通过 iCloud 进行云端加密备份。Signal 在数据上传到 Apple 服务器之前就已完成端对端加密，因此 Apple 也无法读取你的备份内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;两种方案都将你的聊天记录安全掌握在自己手中，不存在第三方可以直接访问你通讯内容的风险。&lt;/p&gt;
+&lt;h2 id="android-本地备份"&gt;Android 本地备份&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/backup/body1.jpg" alt="Android 备份设置界面"&gt;&lt;/p&gt;
+&lt;h3 id="开启自动备份"&gt;开启自动备份&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 Signal 应用，点击右上角头像进入 &lt;strong&gt;设置&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;选择 &lt;strong&gt;聊天&lt;/strong&gt; → 进入 &lt;strong&gt;聊天备份&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;将 &lt;strong&gt;创建备份&lt;/strong&gt; 的开关打开&lt;/li&gt;
+&lt;li&gt;选择备份频率：建议选择 &lt;strong&gt;每天&lt;/strong&gt; 或 &lt;strong&gt;每周&lt;/strong&gt;，根据你的聊天活跃度决定&lt;/li&gt;
+&lt;li&gt;系统会提示你设置 &lt;strong&gt;备份加密密钥&lt;/strong&gt;：这是一个由你自己设置的加密短语，建议使用密码管理器生成的高强度随机字符串&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class="callout callout-warning"&gt;
+ &lt;div class="callout-title"&gt;备份加密密钥极其重要&lt;/div&gt;
+ 备份加密密钥是你恢复备份的唯一凭证。Signal 不会存储你的密钥，如果忘记密钥，即使有备份文件也绝对无法恢复。强烈建议将密钥保存到密码管理器（如 1Password、Bitwarden）中，或手写在纸上存放到安全的地方。千万不要只保存在手机上。
+&lt;/div&gt;
+
+&lt;h3 id="备份文件在手机上的位置"&gt;备份文件在手机上的位置&lt;/h3&gt;
+&lt;p&gt;Signal 的备份文件保存在 Android 设备的本地存储中：&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;内部存储/Android/data/org.thoughtcrime.securesms/files/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;由于 Android 的存储分区限制，不同品牌的手机路径可能略有差异。备份文件是加密的二进制格式，即使你找到了这些文件也无法直接读取其中的内容。&lt;/p&gt;
+&lt;h3 id="手动导出备份到外部存储"&gt;手动导出备份到外部存储&lt;/h3&gt;
+&lt;p&gt;如果你希望将备份文件转移到电脑或其他存储介质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;进入 Signal → 设置 → 聊天 → &lt;strong&gt;聊天备份&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;点击 &lt;strong&gt;导出备份&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;系统会生成一个加密的备份文件（.signal-backup 格式）&lt;/li&gt;
+&lt;li&gt;你可以将文件发送到 Google Drive、保存到本地存储、通过 USB 传输到电脑，或发送到其他应用&lt;/li&gt;
+&lt;li&gt;导出时系统会同时生成一个 &lt;strong&gt;恢复凭证&lt;/strong&gt;，恢复备份时需要使用这个凭证&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;建议定期将备份导出到至少两个不同的存储位置，防止单一设备故障导致数据丢失。&lt;/p&gt;</description></item></channel></rss>
