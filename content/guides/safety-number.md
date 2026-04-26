@@ -2,6 +2,7 @@
 title: "Signal 安全号码验证教程"
 description: "什么是安全号码？如何验证联系人身份？详解 Signal 的密钥指纹验证机制，确保通讯安全。"
 date: 2026-04-13
+slug: "safety-number"
 section: guides
 emoji: "🔐"
 iconClass: "icon-blue"

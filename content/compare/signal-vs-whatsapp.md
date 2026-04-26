@@ -2,6 +2,7 @@
 title: "Signal 和 WhatsApp 哪个更隐私？"
 description: "Signal 和 WhatsApp 都使用 Signal Protocol 加密，但数据收集、隐私政策和商业模式完全不同。全面对比两个应用的隐私保护差异。"
 date: 2026-04-14
+slug: "signal-vs-whatsapp"
 section: compare
 emoji: "💬"
 vsName: "WhatsApp"

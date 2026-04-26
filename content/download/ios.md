@@ -2,6 +2,7 @@
 title: "Signal iOS 下载"
 description: "Signal iOS 版下载指南。介绍如何从 App Store 下载安装 Signal，以及中国大陆用户的替代下载方案。"
 date: 2026-04-10
+slug: "ios"
 tags: ["Signal", "iOS", "iPhone"]
 category: "版本更新"
 tagClass: "tag-update"

@@ -2,6 +2,7 @@
 title: "Signal 初次设置完整指南"
 description: "Signal 注册完成后的必做隐私设置教程，包括关闭已读回执、启用消息消失、设置 PIN 锁、关闭链接预览等关键安全设置。"
 date: 2026-04-10
+slug: "setup"
 tags: ["Signal", "隐私设置", "安全设置"]
 category: "使用教程"
 tagClass: "tag-guide"

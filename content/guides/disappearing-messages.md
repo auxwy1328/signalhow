@@ -2,6 +2,7 @@
 title: "Signal 阅后即焚设置教程"
 description: "消息自动销毁，不留痕迹。教你设置 Signal 的定时消失消息功能，保护对话隐私安全。"
 date: 2026-04-14
+slug: "disappearing-messages"
 section: guides
 emoji: "💣"
 iconClass: "icon-red"

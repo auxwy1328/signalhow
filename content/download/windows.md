@@ -2,6 +2,7 @@
 title: "Signal Windows 下载"
 description: "Signal Windows 桌面版下载安装指南。支持 Windows 10 及以上系统，扫码关联手机即可在电脑上使用 Signal。"
 date: 2026-04-08
+slug: "windows"
 tags: ["Signal", "Windows", "桌面版"]
 category: "版本更新"
 tagClass: "tag-update"

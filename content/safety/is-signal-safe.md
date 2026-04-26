@@ -2,6 +2,7 @@
 title: "Signal 安全吗？2026 年全面安全评估"
 description: "从加密协议、开源审计、元数据保护、攻击面分析等多个角度，全面评估 Signal 在 2026 年的安全性表现。"
 date: 2026-04-15
+slug: "is-signal-safe"
 tags: ["Signal", "安全分析", "加密", "隐私保护", "审计"]
 category: "安全分析"
 tagClass: "tag-safety"

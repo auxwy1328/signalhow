@@ -2,6 +2,7 @@
 title: "Signal macOS 下载"
 description: "Signal macOS 桌面版下载安装指南。支持 macOS 10.13 及以上系统，提供 Intel 和 Apple Silicon 两个版本。"
 date: 2026-04-06
+slug: "mac"
 tags: ["Signal", "macOS", "桌面版"]
 category: "版本更新"
 tagClass: "tag-update"

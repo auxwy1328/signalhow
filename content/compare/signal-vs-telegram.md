@@ -2,6 +2,7 @@
 title: "Signal vs Telegram 深度对比：加密安全全面评测"
 description: "Signal 和 Telegram 的全面对比评测，涵盖加密技术、默认安全设置、隐私政策、开源透明度、元数据收集等多个维度。"
 date: 2026-04-15
+slug: "signal-vs-telegram"
 tags: ["Signal", "Telegram", "对比评测", "加密安全", "隐私保护"]
 category: "对比评测"
 tagClass: "tag-compare"

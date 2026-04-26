@@ -2,6 +2,7 @@
 title: "Signal 桌面版关联手机教程"
 description: "在电脑上使用 Signal。支持 Windows、Mac、Linux，扫码即可关联手机，同步消息。"
 date: 2026-04-12
+slug: "desktop-link"
 section: guides
 emoji: "🖥️"
 iconClass: "icon-green"

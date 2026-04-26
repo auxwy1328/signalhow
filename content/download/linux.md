@@ -2,6 +2,7 @@
 title: "Signal Linux 下载"
 description: "Signal Linux 版安装教程，覆盖 Debian/Ubuntu、Fedora、Arch Linux 等主流发行版的安装方法。"
 date: 2026-04-05
+slug: "linux"
 tags: ["Signal", "Linux", "桌面版"]
 category: "版本更新"
 tagClass: "tag-update"

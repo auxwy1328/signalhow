@@ -2,6 +2,7 @@
 title: "Signal 和 Threema 怎么选？"
 description: "Threema 付费但无需手机号，Signal 免费但需要注册。从匿名性、安全性、易用性三个维度详细对比 Signal 和 Threema。"
 date: 2026-04-13
+slug: "signal-vs-threema"
 section: compare
 emoji: "🔐"
 vsName: "Threema"
