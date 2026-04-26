@@ -855,7 +855,10 @@
   }
 
   /* ===== ARTICLE MAIN ===== */
-  .article-main {}
+  .article-main {
+    min-width: 0;
+    overflow: hidden;
+  }
 
   /* Article Header */
   .article-header {
@@ -985,7 +988,8 @@
     border-bottom-color: var(--signal-blue);
   }
   .article-content img {
-    width: 100%;
+    display: block;
+    max-width: 100%;
     height: auto;
     aspect-ratio: 16/9;
     object-fit: cover;
