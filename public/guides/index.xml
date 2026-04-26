@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Signal 使用教程 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/guides/</link><description>Recent content in Signal 使用教程 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/guides/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 换机迁移聊天记录完整教程</title><link>https://signalhow.com/guides/change-phone/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/change-phone/</guid><description>&lt;p&gt;换手机是使用 Signal 过程中最常见的场景之一。无论你是从旧 Android 换到新 Android，还是从 iPhone 换到新 iPhone，Signal 都提供了便捷的数据迁移功能。本文详细介绍各种换机场景下的迁移方法，确保你的聊天记录、媒体文件和设置完整转移到新设备。&lt;/p&gt;
 &lt;h2 id="方法一signal-官方设备迁移推荐"&gt;方法一：Signal 官方设备迁移（推荐）&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/change-phone/wifi-transfer.jpg" alt="Signal 设备间 WiFi 直连传输数据"&gt;&lt;/p&gt;
 &lt;p&gt;Signal 从 v6.0 开始内置了设备迁移功能，这是最简单、最可靠的迁移方式。迁移通过本地 Wi-Fi 直连完成，数据不经过任何云端服务器，确保隐私安全。&lt;/p&gt;
 &lt;h3 id="android-到-android"&gt;Android 到 Android&lt;/h3&gt;
 &lt;ol&gt;
@@ -32,7 +33,7 @@
 &lt;/div&gt;
 
 &lt;h2 id="方法二本地备份与恢复"&gt;方法二：本地备份与恢复&lt;/h2&gt;
-&lt;p&gt;如果官方迁移工具不可用（例如旧手机已损坏无法操作），可以使用 Signal 的本地备份功能。&lt;/p&gt;</description></item><item><title>Signal 注册教程：从下载到完成注册的完整指南</title><link>https://signalhow.com/guides/registration/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/registration/</guid><description>&lt;p&gt;Signal 是全球最安全的加密通讯应用，由非营利组织 &lt;a href="https://signal.org/"&gt;Signal Foundation&lt;/a&gt; 运营。本教程将&lt;strong&gt;手把手教你完成 Signal 的注册&lt;/strong&gt;，从下载安装到验证手机号，以及解决注册过程中可能遇到的常见问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/change-phone/backup.jpg" alt="Signal 本地加密备份与恢复"&gt;&lt;/p&gt;</description></item><item><title>Signal 注册教程：从下载到完成注册的完整指南</title><link>https://signalhow.com/guides/registration/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/registration/</guid><description>&lt;p&gt;Signal 是全球最安全的加密通讯应用，由非营利组织 &lt;a href="https://signal.org/"&gt;Signal Foundation&lt;/a&gt; 运营。本教程将&lt;strong&gt;手把手教你完成 Signal 的注册&lt;/strong&gt;，从下载安装到验证手机号，以及解决注册过程中可能遇到的常见问题。&lt;/p&gt;
 
 &lt;div class="callout callout-info"&gt;
  &lt;div class="callout-title"&gt;注册前准备&lt;/div&gt;
@@ -41,6 +42,7 @@
 
 &lt;h2 id="第一步下载-signal"&gt;第一步：下载 Signal&lt;/h2&gt;
 &lt;p&gt;根据你的手机系统，选择对应的下载方式：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/registration/step1-download.jpg" alt="Signal 下载安装到手机"&gt;&lt;/p&gt;
 &lt;h3 id="android-用户"&gt;Android 用户&lt;/h3&gt;
 &lt;p&gt;由于 Google Play 在中国大陆不可用，推荐从本站直接下载 Signal APK 安装包。前往 &lt;a href="https://signalhow.com/download/android/"&gt;Signal Android 下载页面&lt;/a&gt; 获取最新版 APK 文件。下载后打开文件，按提示完成安装。安装时系统可能提示&amp;quot;来自未知来源的应用&amp;quot;，需要允许安装。&lt;/p&gt;
 &lt;p&gt;具体操作步骤如下：&lt;/p&gt;
@@ -121,6 +123,7 @@
 &lt;h2 id="如何验证安全号码"&gt;如何验证安全号码&lt;/h2&gt;
 &lt;p&gt;Signal 提供了两种验证方法，你可以根据实际情况选择。&lt;/p&gt;
 &lt;h3 id="方法一qr-码扫描验证推荐"&gt;方法一：QR 码扫描验证（推荐）&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/qr-verify.jpg" alt="Signal 安全号码 QR 码扫描验证"&gt;&lt;/p&gt;
 &lt;p&gt;QR 码验证是最快最方便的方式，适合面对面验证：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开与联系人的聊天界面&lt;/li&gt;
@@ -131,6 +134,7 @@
 &lt;/ol&gt;
 &lt;p&gt;QR 码中包含了你的完整安全号码信息，扫描后会自动对比验证。&lt;/p&gt;
 &lt;h3 id="方法二数字指纹对比"&gt;方法二：数字指纹对比&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/fingerprint.jpg" alt="Signal 加密指纹数字对比验证"&gt;&lt;/p&gt;
 &lt;p&gt;数字指纹验证适合远程验证（通过电话或视频通话）：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开与联系人的聊天界面&lt;/li&gt;
@@ -146,14 +150,7 @@
 &lt;/div&gt;
 
 &lt;h2 id="安全号码什么时候会变化"&gt;安全号码什么时候会变化？&lt;/h2&gt;
-&lt;p&gt;安全号码在以下情况下会自动更新：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;联系人重装 Signal&lt;/strong&gt;：卸载后重新安装会生成新的加密密钥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;联系人更换设备&lt;/strong&gt;：在新手机上登录 Signal 会生成新密钥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;联系人更换手机号&lt;/strong&gt;：使用新的手机号注册相当于新账号&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;安全号码自动轮换&lt;/strong&gt;：Signal 会定期自动轮换加密密钥（约每 100 条消息或每 7 天）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;当安全号码变化时，Signal 会自动在聊天中显示&lt;strong&gt;安全号码已更改&lt;/strong&gt;的警告消息。你需要确认这个变化是否合理（例如对方确实换了新手机），还是可能存在安全问题。&lt;/p&gt;</description></item><item><title>Signal 桌面版关联手机教程</title><link>https://signalhow.com/guides/desktop-link/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/desktop-link/</guid><description>&lt;p&gt;Signal 桌面版让你可以在电脑上安全地收发消息，无需每次都拿起手机。桌面版需要先在手机上安装 Signal，然后通过二维码扫描关联设备。所有消息通过端对端加密同步，Signal 服务器无法读取传输内容。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/mitm-protection.jpg" alt="Signal 安全号码防范中间人攻击"&gt;&lt;/p&gt;</description></item><item><title>Signal 桌面版关联手机教程</title><link>https://signalhow.com/guides/desktop-link/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/desktop-link/</guid><description>&lt;p&gt;Signal 桌面版让你可以在电脑上安全地收发消息，无需每次都拿起手机。桌面版需要先在手机上安装 Signal，然后通过二维码扫描关联设备。所有消息通过端对端加密同步，Signal 服务器无法读取传输内容。&lt;/p&gt;
 &lt;h2 id="支持的平台"&gt;支持的平台&lt;/h2&gt;
 &lt;p&gt;Signal 桌面版支持以下操作系统：&lt;/p&gt;
 &lt;ul&gt;
@@ -216,4 +213,4 @@
 &lt;li&gt;&lt;strong&gt;账户恢复&lt;/strong&gt;：如果你长时间未使用 Signal 或更换了设备，PIN 可以帮助你恢复账户&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;注册锁&lt;/strong&gt;：启用注册锁后，即使有人获取了你的手机号和验证码，也需要输入 PIN 才能注册新账号，有效防止 SIM 卡劫持攻击&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;设置建议&lt;/strong&gt;：选择一个你能记住但不容易被猜到的 PIN（不要用 1234、0000 等常见组合）。不要和手机锁屏密码相同。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/setup/pin-lock.jpg" alt="Signal PIN 码锁屏设置"&gt;&lt;/p&gt;</description></item></channel></rss>

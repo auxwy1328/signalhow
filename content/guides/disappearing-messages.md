@@ -9,6 +9,7 @@ iconClass: "icon-red"
 category: "使用教程"
 tagClass: "tag-guide"
 tags: ["Signal", "阅后即焚", "消息消失", "隐私保护"]
+images: ["/images/guides/disappearing-messages/cover.jpg"]
 ---
 
 ## 什么是阅后即焚
@@ -102,6 +103,8 @@ Signal 提供了丰富的时间选项，从极短的 5 秒到长达 4 周的保�
 
 ## 与截屏通知的配合
 
+![Signal 群聊中启用消失消息](/images/guides/disappearing-messages/group-chat.jpg)
+
 Signal 具有截屏检测功能，但它和阅后即焚是两个独立的功能，各有各的防护逻辑。
 
 阅后即焚防止的是消息在设备上的**被动留存**——消息会在设定时间后自动删除，即使你什么都没做。而截屏通知则是防止消息被**主动复制**——当对方对聊天界面进行截屏时，你会收到一条系统通知。
@@ -114,6 +117,8 @@ Signal 具有截屏检测功能，但它和阅后即焚是两个独立的功能�
 此外，无论是否开启阅后即焚，截屏通知功能都可以独立工作。两者配合使用时，可以提供更全面的隐私保护：阅后即焚减少消息暴露的时间窗口，截屏通知则在你不知情的情况下提醒你对方可能在保存对话内容。
 
 ## 实际使用场景建议
+
+![Signal 消息消失功能的安全优势](/images/guides/disappearing-messages/security-benefit.jpg)
 
 不同的使用场景适合不同的消失时间设置。以下是一些实用的场景建议，帮助你在隐私和便利之间找到平衡。
 
@@ -158,3 +163,7 @@ Signal 具有截屏检测功能，但它和阅后即焚是两个独立的功能�
 **Q：阅后即焚能防止对方截屏吗？**
 
 不能完全防止。阅后即焚控制的是消息在 Signal 应用内的存储时间，而截屏是操作系统层面的功能。不过 Signal 提供了截屏检测功能，当对方截屏时你会收到通知。要获得更完善的保护，建议结合较短的消失时间（如 5 秒或 30 秒）使用，缩短消息暴露的时间窗口。
+
+![Signal 消息消失时间设置界面](/images/guides/disappearing-messages/timer-settings.jpg)
+
+![Signal 群聊中启用消失消息](/images/guides/disappearing-messages/group-chat.jpg)

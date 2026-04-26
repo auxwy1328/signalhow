@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据备份 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/</link><description>Recent content in 数据备份 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 换机迁移聊天记录完整教程</title><link>https://signalhow.com/guides/change-phone/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/change-phone/</guid><description>&lt;p&gt;换手机是使用 Signal 过程中最常见的场景之一。无论你是从旧 Android 换到新 Android，还是从 iPhone 换到新 iPhone，Signal 都提供了便捷的数据迁移功能。本文详细介绍各种换机场景下的迁移方法，确保你的聊天记录、媒体文件和设置完整转移到新设备。&lt;/p&gt;
 &lt;h2 id="方法一signal-官方设备迁移推荐"&gt;方法一：Signal 官方设备迁移（推荐）&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/change-phone/wifi-transfer.jpg" alt="Signal 设备间 WiFi 直连传输数据"&gt;&lt;/p&gt;
 &lt;p&gt;Signal 从 v6.0 开始内置了设备迁移功能，这是最简单、最可靠的迁移方式。迁移通过本地 Wi-Fi 直连完成，数据不经过任何云端服务器，确保隐私安全。&lt;/p&gt;
 &lt;h3 id="android-到-android"&gt;Android 到 Android&lt;/h3&gt;
 &lt;ol&gt;
@@ -32,4 +33,4 @@
 &lt;/div&gt;
 
 &lt;h2 id="方法二本地备份与恢复"&gt;方法二：本地备份与恢复&lt;/h2&gt;
-&lt;p&gt;如果官方迁移工具不可用（例如旧手机已损坏无法操作），可以使用 Signal 的本地备份功能。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/change-phone/backup.jpg" alt="Signal 本地加密备份与恢复"&gt;&lt;/p&gt;</description></item></channel></rss>

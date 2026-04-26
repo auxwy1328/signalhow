@@ -10,6 +10,7 @@ category: "使用教程"
 tagClass: "tag-guide"
 tags: ["Signal", "桌面版", "电脑版", "关联设备"]
 readTime: "5 分钟"
+images: ["/images/guides/desktop-link/cover.jpg"]
 ---
 
 Signal 桌面版让你可以在电脑上安全地收发消息，无需每次都拿起手机。桌面版需要先在手机上安装 Signal，然后通过二维码扫描关联设备。所有消息通过端对端加密同步，Signal 服务器无法读取传输内容。
@@ -60,6 +61,8 @@ sudo dnf install signal-desktop
 
 ## 第二步：关联手机设备
 
+![手机扫描电脑屏幕 QR 码关联 Signal 桌面版](/images/guides/desktop-link/qr-scan.jpg)
+
 安装完成后，打开 Signal 桌面版，你会看到一个显示 QR 码的界面：
 
 1. **确保手机上已安装 Signal** 并已完成 [注册](/guides/registration/)
@@ -84,6 +87,8 @@ sudo dnf install signal-desktop
 
 ## 多设备管理
 
+![Signal 多设备同时使用示意](/images/guides/desktop-link/multi-device.jpg)
+
 Signal 支持最多 **5 台设备**同时链接（包括手机）。你可以在手机上查看和管理已关联的设备：
 
 **手机 → 设置 → 已关联的设备**
@@ -105,6 +110,9 @@ Signal 支持最多 **5 台设备**同时链接（包括手机）。你可以在
 断开后，桌面版上的所有本地数据会被自动删除。
 
 ## 桌面版独立使用（2024 年新功能）
+
+
+![Signal 桌面版独立使用无需手机在线](/images/guides/desktop-link/independent-use.jpg)
 
 从 2024 年起，Signal 更新了多设备架构。**新架构下，桌面版不再要求手机在线也能独立收发消息**。这意味着即使你的手机关机、没电或没有网络，你仍然可以在电脑上正常使用 Signal。
 

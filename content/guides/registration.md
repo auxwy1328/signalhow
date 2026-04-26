@@ -9,6 +9,7 @@ tagClass: "tag-guide"
 emoji: "📱"
 iconClass: "icon-blue"
 readTime: "8 分钟"
+images: ["/images/guides/registration/cover.jpg"]
 ---
 
 Signal 是全球最安全的加密通讯应用，由非营利组织 [Signal Foundation](https://signal.org/) 运营。本教程将**手把手教你完成 Signal 的注册**，从下载安装到验证手机号，以及解决注册过程中可能遇到的常见问题。
@@ -20,6 +21,8 @@ Signal 是全球最安全的加密通讯应用，由非营利组织 [Signal Foun
 ## 第一步：下载 Signal
 
 根据你的手机系统，选择对应的下载方式：
+
+![Signal 下载安装到手机](/images/guides/registration/step1-download.jpg)
 
 ### Android 用户
 
@@ -50,6 +53,8 @@ Signal 是全球最安全的加密通讯应用，由非营利组织 [Signal Foun
 
 ### 1. 输入手机号码
 
+![Signal 短信验证码输入界面](/images/guides/registration/step2-verify.jpg)
+
 打开 Signal 后，首先映入眼帘的是手机号输入界面。如果你在中国大陆，需要输入 **+86** 开头的完整 11 位手机号码。Signal 支持全球手机号注册，无论你使用哪个国家的手机号都可以正常注册。
 
 **注意事项：**
@@ -75,6 +80,9 @@ Signal 会向你的手机发送一条包含 **6 位数字验证码** 的短信�
 Signal 的设计理念是尽量少收集用户信息，所以个人资料设置非常简洁。
 
 ## 第三步：完成初始安全设置
+
+
+![Signal 隐私安全初始设置](/images/guides/registration/step3-setup.jpg)
 
 注册完成后，强烈建议立即进行几项关键的安全和隐私设置。这些设置能显著提升你的通讯安全级别。详细的设置教程可以参考 [Signal 初次设置完整指南](/guides/setup/)，以下是最重要的几项：
 

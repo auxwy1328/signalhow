@@ -30,4 +30,4 @@
 &lt;li&gt;&lt;strong&gt;账户恢复&lt;/strong&gt;：如果你长时间未使用 Signal 或更换了设备，PIN 可以帮助你恢复账户&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;注册锁&lt;/strong&gt;：启用注册锁后，即使有人获取了你的手机号和验证码，也需要输入 PIN 才能注册新账号，有效防止 SIM 卡劫持攻击&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;设置建议&lt;/strong&gt;：选择一个你能记住但不容易被猜到的 PIN（不要用 1234、0000 等常见组合）。不要和手机锁屏密码相同。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/setup/pin-lock.jpg" alt="Signal PIN 码锁屏设置"&gt;&lt;/p&gt;</description></item></channel></rss>

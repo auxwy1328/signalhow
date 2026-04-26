@@ -57,16 +57,8 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="匿名性对比"&gt;匿名性对比&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/compare/signal-vs-threema/anonymity.jpg" alt="Signal 与 Threema 匿名注册机制对比"&gt;&lt;/p&gt;
 &lt;p&gt;这是两个应用最核心的差异。&lt;/p&gt;
 &lt;h3 id="signal手机号绑定"&gt;Signal：手机号绑定&lt;/h3&gt;
 &lt;p&gt;Signal 要求用户使用手机号注册，这意味着 Signal 知道你的手机号码。虽然 Signal 不会将你的手机号暴露给其他用户（只有通讯录中已保存你号码的人才能看到你），但手机号本身就是一个可以关联到你真实身份的标识符。&lt;/p&gt;
-&lt;p&gt;从技术角度来看，Signal 对手机号的处理已经非常隐私友好——它不将手机号与消息内容关联，不记录社交图谱。但手机号注册这一要求本身，对于追求极致匿名的用户来说是一个短板。&lt;/p&gt;
-&lt;h3 id="threema完全匿名"&gt;Threema：完全匿名&lt;/h3&gt;
-&lt;p&gt;Threema 是目前主流加密通讯应用中&lt;strong&gt;匿名性最强&lt;/strong&gt;的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;不需要手机号&lt;/strong&gt;：注册时生成随机 ID，不绑定任何个人信息&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;不需要邮箱&lt;/strong&gt;：无需提供邮箱地址&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;服务器不存储可识别信息&lt;/strong&gt;：Threema 服务器不存储任何可以关联到你真实身份的数据&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;瑞士隐私法保护&lt;/strong&gt;：Threema 总部位于瑞士，受瑞士严格的数据隐私法律保护&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果你需要最高级别的匿名性——例如你是记者、吹哨人、活动家——Threema 是更好的选择。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;从技术角度来看，Signal 对手机号的处理已经非常隐私友好——它不将手机号与消息内容关联，不记录社交图谱。但手机号注册这一要求本身，对于追求极致匿名的用户来说是一个短板。&lt;/p&gt;</description></item></channel></rss>

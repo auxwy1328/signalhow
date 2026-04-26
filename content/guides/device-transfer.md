@@ -10,11 +10,14 @@ category: "使用教程"
 tagClass: "tag-guide"
 tags: ["Signal", "换机迁移", "聊天记录", "数据备份"]
 readTime: "8 分钟"
+images: ["/images/guides/change-phone/cover.jpg"]
 ---
 
 换手机是使用 Signal 过程中最常见的场景之一。无论你是从旧 Android 换到新 Android，还是从 iPhone 换到新 iPhone，Signal 都提供了便捷的数据迁移功能。本文详细介绍各种换机场景下的迁移方法，确保你的聊天记录、媒体文件和设置完整转移到新设备。
 
 ## 方法一：Signal 官方设备迁移（推荐）
+
+![Signal 设备间 WiFi 直连传输数据](/images/guides/change-phone/wifi-transfer.jpg)
 
 Signal 从 v6.0 开始内置了设备迁移功能，这是最简单、最可靠的迁移方式。迁移通过本地 Wi-Fi 直连完成，数据不经过任何云端服务器，确保隐私安全。
 
@@ -49,6 +52,8 @@ Signal 从 v6.0 开始内置了设备迁移功能，这是最简单、最可靠�
 
 ## 方法二：本地备份与恢复
 
+![Signal 本地加密备份与恢复](/images/guides/change-phone/backup.jpg)
+
 如果官方迁移工具不可用（例如旧手机已损坏无法操作），可以使用 Signal 的本地备份功能。
 
 ### Android 本地备份
@@ -80,6 +85,9 @@ iOS 版 Signal 的备份通过 iCloud 完成：
 {{< /callout >}}
 
 ## 跨平台迁移方案
+
+
+![Android 与 iOS 跨平台换机迁移方案](/images/guides/change-phone/cross-platform.jpg)
 
 如果你要从 Android 切换到 iPhone（或反过来），Signal 没有提供一键迁移功能。以下是推荐的替代方案：
 

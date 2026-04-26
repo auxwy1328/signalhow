@@ -17,7 +17,6 @@
 &lt;h3 id="如何更换-signal-的手机号"&gt;如何更换 Signal 的手机号？&lt;/h3&gt;
 &lt;p&gt;Signal 支持在不丢失聊天记录的情况下更换手机号。操作路径：设置 → 账户 → 更改手机号。输入新手机号后，Signal 会发送验证码到新旧两个号码进行确认。更换手机号后，你的联系人会自动更新。如果同时换了新手机，建议先完成 &lt;a href="https://signalhow.com/guides/change-phone/"&gt;换机迁移&lt;/a&gt; 再换号。&lt;/p&gt;
 &lt;h2 id="功能使用相关"&gt;功能使用相关&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/faq/registration-help.jpg" alt="Signal 注册常见问题帮助"&gt;&lt;/p&gt;
 &lt;h3 id="signal-是免费的吗"&gt;Signal 是免费的吗？&lt;/h3&gt;
-&lt;p&gt;是的，Signal &lt;strong&gt;完全免费&lt;/strong&gt;。没有订阅费用、没有广告、没有应用内购买、没有高级功能付费解锁。Signal 由 Signal Foundation（非营利组织）运营，资金来自用户捐款和机构拨款。没有任何商业动机去收集和出售用户数据。&lt;/p&gt;
-&lt;h3 id="如何设置消息自动消失"&gt;如何设置消息自动消失？&lt;/h3&gt;
-&lt;p&gt;Signal 的消息消失功能（Disappearing Messages）可以为单聊或群聊设置定时自动删除。操作方法：打开与联系人的聊天界面 → 点击联系人名称进入聊天设置 → 找到&amp;quot;消失消息&amp;quot;选项并开启 → 选择消失时间（5 秒到 4 周）。你也可以设置全局默认消失时间：设置 → 隐私 → 默认定时消息。详细教程见 &lt;a href="https://signalhow.com/guides/disappearing-messages/"&gt;阅后即焚设置教程&lt;/a&gt;。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;是的，Signal &lt;strong&gt;完全免费&lt;/strong&gt;。没有订阅费用、没有广告、没有应用内购买、没有高级功能付费解锁。Signal 由 Signal Foundation（非营利组织）运营，资金来自用户捐款和机构拨款。没有任何商业动机去收集和出售用户数据。&lt;/p&gt;</description></item></channel></rss>

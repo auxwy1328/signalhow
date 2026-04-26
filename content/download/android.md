@@ -8,6 +8,7 @@ category: "版本更新"
 tagClass: "tag-update"
 emoji: "🤖"
 readTime: "3 分钟"
+images: ["/images/download/android/cover.jpg"]
 ---
 
 ## Signal Android 版下载
@@ -33,6 +34,8 @@ Signal Android 版支持 Android 6.0（API 23）及以上系统，覆盖绝大�
 
 ## 安装步骤
 
+![Signal APK 安装步骤](/images/download/android/install.jpg)
+
 ### 第一步：下载 APK 文件
 
 选择上述渠道之一下载 Signal APK 安装包。文件名通常为 `Signal-Android-xxx.apk`。
@@ -57,6 +60,8 @@ Android 系统默认禁止安装非应用商店来源的 APK。你需要手动�
 
 ## SHA256 校验方法
 
+![SHA256 安全校验方法](/images/download/android/verify-sha256.jpg)
+
 为确保下载的 APK 文件未被篡改，建议在安装前进行 SHA256 校验。
 
 **Android 设备上校验：**
@@ -71,6 +76,9 @@ Android 系统默认禁止安装非应用商店来源的 APK。你需要手动�
 如果两个 SHA256 值一致，说明文件完整无损。如果不一致，请重新下载。
 
 ## 系统要求
+
+
+![Signal Android 系统要求](/images/download/android/system-requirements.jpg)
 
 | 要求项 | 最低配置 |
 |--------|---------|

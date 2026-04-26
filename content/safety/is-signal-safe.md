@@ -8,11 +8,14 @@ category: "安全分析"
 tagClass: "tag-safety"
 emoji: "🔒"
 readTime: "7 分钟"
+images: ["/images/safety/is-signal-safe/cover.jpg"]
 ---
 
 Signal 被广泛认为是目前最安全的消费级加密通讯应用之一。无论是安全研究者、隐私倡导者还是主流媒体，都对 Signal 给出了极高的安全评价。本文从加密协议技术原理、独立安全审计结果、元数据保护策略、已知漏洞与修复历史以及与其他加密通讯工具的对比等多个维度，对 Signal 在 2026 年的安全表现进行全面评估。
 
 ## Signal Protocol：加密协议的技术原理
+
+![Signal 端对端加密工作原理](/images/safety/is-signal-safe/e2ee.jpg)
 
 Signal Protocol 是 Signal 应用的核心安全基础，也是整个端对端加密通讯领域最重要的技术贡献之一。它由 Signal 的创始团队（Moxie Marlinswater 等人）设计，最初被称为 TextSecure Protocol，后来逐渐演化为一个被业界广泛采用的加密标准。
 
@@ -49,6 +52,8 @@ Signal 的端对端加密覆盖了应用中的几乎所有通讯内容，这比�
 
 ## 开源与可审计性
 
+![Signal 开源代码与社区审计](/images/safety/is-signal-safe/opensource.jpg)
+
 Signal 的安全优势很大程度上来源于其开源策略。代码公开意味着全球的安全研究者都可以审查 Signal 的实现，任何后门或安全缺陷都有被发现的可能。
 
 - **客户端** — Android、iOS、桌面端全部在 GitHub 上开源
@@ -58,6 +63,8 @@ Signal 的安全优势很大程度上来源于其开源策略。代码公开意�
 开源并不自动等于安全，但它为安全提供了透明度保障。任何声称"信任我们"的闭源应用，都不如一个"你自己来审查"的开源应用值得信赖。
 
 ## 独立安全审计结果
+
+![Signal 安全审计报告](/images/safety/is-signal-safe/audit.jpg)
 
 Signal 定期邀请全球顶级的安全审计机构对其代码和架构进行全面审查。这些独立审计是验证 Signal 安全声明的关键环节。
 

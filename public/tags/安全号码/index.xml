@@ -15,6 +15,7 @@
 &lt;h2 id="如何验证安全号码"&gt;如何验证安全号码&lt;/h2&gt;
 &lt;p&gt;Signal 提供了两种验证方法，你可以根据实际情况选择。&lt;/p&gt;
 &lt;h3 id="方法一qr-码扫描验证推荐"&gt;方法一：QR 码扫描验证（推荐）&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/qr-verify.jpg" alt="Signal 安全号码 QR 码扫描验证"&gt;&lt;/p&gt;
 &lt;p&gt;QR 码验证是最快最方便的方式，适合面对面验证：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开与联系人的聊天界面&lt;/li&gt;
@@ -25,6 +26,7 @@
 &lt;/ol&gt;
 &lt;p&gt;QR 码中包含了你的完整安全号码信息，扫描后会自动对比验证。&lt;/p&gt;
 &lt;h3 id="方法二数字指纹对比"&gt;方法二：数字指纹对比&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/fingerprint.jpg" alt="Signal 加密指纹数字对比验证"&gt;&lt;/p&gt;
 &lt;p&gt;数字指纹验证适合远程验证（通过电话或视频通话）：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开与联系人的聊天界面&lt;/li&gt;
@@ -40,11 +42,4 @@
 &lt;/div&gt;
 
 &lt;h2 id="安全号码什么时候会变化"&gt;安全号码什么时候会变化？&lt;/h2&gt;
-&lt;p&gt;安全号码在以下情况下会自动更新：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;联系人重装 Signal&lt;/strong&gt;：卸载后重新安装会生成新的加密密钥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;联系人更换设备&lt;/strong&gt;：在新手机上登录 Signal 会生成新密钥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;联系人更换手机号&lt;/strong&gt;：使用新的手机号注册相当于新账号&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;安全号码自动轮换&lt;/strong&gt;：Signal 会定期自动轮换加密密钥（约每 100 条消息或每 7 天）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;当安全号码变化时，Signal 会自动在聊天中显示&lt;strong&gt;安全号码已更改&lt;/strong&gt;的警告消息。你需要确认这个变化是否合理（例如对方确实换了新手机），还是可能存在安全问题。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/mitm-protection.jpg" alt="Signal 安全号码防范中间人攻击"&gt;&lt;/p&gt;</description></item></channel></rss>

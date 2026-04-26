@@ -13,6 +13,7 @@ tagClass: "tag-compare"
 compareTags: ["匿名注册", "付费模式", "瑞士隐私"]
 tags: ["Signal", "Threema", "加密通讯", "匿名聊天"]
 readTime: "10 分钟"
+images: ["/images/compare/signal-vs-threema/cover.jpg"]
 ---
 
 Signal 和 Threema 都是注重隐私保护的加密通讯应用，但它们的设计理念和目标用户群体存在显著差异。Signal 追求免费、开源、大规模普及；Threema 则专注于匿名性、付费模式和严格的数据隐私。本文从多个维度对比分析两个应用，帮助你做出适合自己的选择。
@@ -32,6 +33,8 @@ Signal 和 Threema 都是注重隐私保护的加密通讯应用，但它们的�
 | 公司所在地 | 美国 | 瑞士 |
 
 ## 匿名性对比
+
+![Signal 与 Threema 匿名注册机制对比](/images/compare/signal-vs-threema/anonymity.jpg)
 
 这是两个应用最核心的差异。
 
@@ -55,6 +58,8 @@ Threema 是目前主流加密通讯应用中**匿名性最强**的：
 ## 加密安全对比
 
 ### Signal：Signal Protocol
+
+![Signal Protocol 与 NaCl 加密库对比](/images/compare/signal-vs-threema/encryption.jpg)
 
 [Signal Protocol](https://en.wikipedia.org/wiki/Signal_Protocol) 是目前业界公认最安全的通讯加密协议：
 
@@ -85,6 +90,9 @@ Threema 使用 [NaCl](https://nacl.cr.yp.to/)（Networking and Cryptography Libr
 这是一个值得注意的差异。Threema 的服务端闭源意味着我们无法像验证 Signal 那样独立审查 Threema 服务器的行为。如果 [Signal 的安全评估报告](/safety/is-signal-safe/) 让你信服 Signal 的透明度，那么 Threema 在这一点上确实不如 Signal。
 
 ## 功能对比
+
+
+![Signal 多设备与 Threema 单设备对比](/images/compare/signal-vs-threema/multi-device.jpg)
 
 | 功能 | Signal | Threema |
 |------|--------|----------|

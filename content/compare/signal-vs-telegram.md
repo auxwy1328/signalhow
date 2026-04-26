@@ -12,6 +12,7 @@ vsLetter: "T"
 vsIconClass: "telegram-icon"
 compareTags: ["加密对比", "隐私政策", "功能差异"]
 readTime: "12 分钟"
+images: ["/images/compare/signal-vs-telegram/cover.jpg"]
 ---
 
 Signal 和 Telegram 是目前全球最受欢迎的两个加密通讯应用，用户量分别超过 5 亿和 9 亿。但这两个应用在安全设计理念上存在**根本性的差异**，很多用户并不清楚这种差异意味着什么。本文从加密技术、隐私政策、数据收集、开源透明度等多个维度进行全面深入的对比较析，帮助你做出明智的选择。
@@ -139,6 +140,8 @@ Signal 在功能上更加精简，专注于安全通讯这一核心功能。Tele
 
 ## 适用场景建议
 
+![Signal 与 Telegram 功能完整对比](/images/compare/signal-vs-telegram/features.jpg)
+
 ### 选择 Signal 如果你：
 
 - 将**隐私安全**作为第一优先级
@@ -182,3 +185,7 @@ Signal 近年来持续增加新功能，包括表情反应、消息编辑、群�
 ### 两个应用哪个更快？
 
 在日常使用中，Telegram 的消息发送速度通常略快于 Signal，特别是在群组和频道中。这是因为 Telegram 的服务器架构针对高并发做了优化。但两者的速度差异在日常个人聊天中几乎不可感知。
+
+![Signal 与 Telegram 加密方式对比](/images/compare/signal-vs-telegram/encryption.jpg)
+
+![Signal 与 Telegram 隐私保护对比](/images/compare/signal-vs-telegram/privacy.jpg)

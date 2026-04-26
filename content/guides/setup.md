@@ -9,6 +9,7 @@ tagClass: "tag-guide"
 emoji: "⚙️"
 iconClass: "icon-green"
 readTime: "6 分钟"
+images: ["/images/guides/setup/cover.jpg"]
 ---
 
 完成 [Signal 注册](/guides/registration/) 后，建议立即进行以下隐私和安全设置。Signal 的默认设置虽然已经比大多数通讯应用更安全，但通过以下几项调整，你可以将隐私保护提升到最高水平。[Signal Foundation](https://signal.org/) 官方也推荐用户根据自身需求调整隐私设置。
@@ -55,9 +56,13 @@ Signal 的默认设置在安全性和易用性之间做了平衡。关闭一些�
 1. **账户恢复**：如果你长时间未使用 Signal 或更换了设备，PIN 可以帮助你恢复账户
 2. **注册锁**：启用注册锁后，即使有人获取了你的手机号和验证码，也需要输入 PIN 才能注册新账号，有效防止 SIM 卡劫持攻击
 
+![Signal PIN 码锁屏设置](/images/guides/setup/pin-lock.jpg)
+
 **设置建议**：选择一个你能记住但不容易被猜到的 PIN（不要用 1234、0000 等常见组合）。不要和手机锁屏密码相同。
 
 ## 5. 设置应用锁
+
+![Signal 隐私设置对比](/images/guides/setup/privacy-settings.jpg)
 
 **路径：设置 → 隐私 → 应用锁 → 启用**
 
@@ -70,6 +75,8 @@ Signal 的默认设置在安全性和易用性之间做了平衡。关闭一些�
 启用后，即使你把手机临时放在桌上，别人也无法直接打开 Signal 查看你的聊天内容。
 
 ## 6. 启用消失消息
+
+![Signal 消息自动消失设置](/images/guides/setup/disappearing-messages.jpg)
 
 **路径：设置 → 隐私 → 默认定时消息 → 选择时间**
 
@@ -122,3 +129,5 @@ Signal 的默认设置在安全性和易用性之间做了平衡。关闭一些�
 ### 信号 PIN 和应用锁有什么区别？
 
 信号 PIN 主要用于**账户恢复和防劫持**，在注册新设备或恢复账户时需要输入。应用锁则是在每次**打开应用时**要求身份验证，防止他人偷看消息。两者互补，建议同时启用。
+
+![Signal PIN 码锁屏设置](/images/guides/setup/pin-lock.jpg)

@@ -13,6 +13,7 @@ tagClass: "tag-compare"
 compareTags: ["元数据", "数据收集", "开源透明"]
 tags: ["Signal", "WhatsApp", "隐私对比", "加密通讯"]
 readTime: "12 分钟"
+images: ["/images/compare/signal-vs-whatsapp/cover.jpg"]
 ---
 
 Signal 和 WhatsApp 都是目前全球用户量最大的加密通讯应用，用户量分别超过 5 亿和 20 亿。两者都采用 Signal Protocol 进行端对端加密，但在隐私保护方面存在**天壤之别**。本文从数据收集、商业模式、开源透明度等多个维度深入对比分析。
@@ -142,6 +143,8 @@ WhatsApp 是 Meta 商业生态的重要组成部分。虽然 WhatsApp 聊天本�
 
 ## 适用场景建议
 
+![Signal 与 WhatsApp 数据收集对比](/images/compare/signal-vs-whatsapp/data-collection.jpg)
+
 ### 选择 Signal 如果你：
 
 - 隐私保护是第一优先级
@@ -181,3 +184,7 @@ WhatsApp 正在推进端对端加密备份功能，但这需要用户手动开�
 ### 哪个应用更安全，Signal 还是 [Telegram](/compare/signal-vs-telegram/)？
 
 从纯安全角度排名：**Signal > Telegram > WhatsApp**。Signal 默认端对端加密且数据收集最少；Telegram 普通聊天不加密但私密聊天加密；WhatsApp 虽然加密但数据收集最多且与 Meta 共享。详细对比见 [Signal vs Telegram 评测](/compare/signal-vs-telegram/)。
+
+![Signal 与 WhatsApp 安全性对比](/images/compare/signal-vs-whatsapp/security.jpg)
+
+![Signal 与 WhatsApp 隐私政策对比](/images/compare/signal-vs-whatsapp/privacy-policy.jpg)

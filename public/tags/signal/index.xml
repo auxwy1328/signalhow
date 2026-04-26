@@ -16,23 +16,11 @@
 &lt;/div&gt;
 
 &lt;h2 id="安装步骤"&gt;安装步骤&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/download/android/install.jpg" alt="Signal APK 安装步骤"&gt;&lt;/p&gt;
 &lt;h3 id="第一步下载-apk-文件"&gt;第一步：下载 APK 文件&lt;/h3&gt;
 &lt;p&gt;选择上述渠道之一下载 Signal APK 安装包。文件名通常为 &lt;code&gt;Signal-Android-xxx.apk&lt;/code&gt;。&lt;/p&gt;
 &lt;h3 id="第二步允许安装未知来源应用"&gt;第二步：允许安装未知来源应用&lt;/h3&gt;
-&lt;p&gt;Android 系统默认禁止安装非应用商店来源的 APK。你需要手动开启：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Android 8.0 及以上&lt;/strong&gt;：安装时系统会弹出提示，点击&amp;quot;设置&amp;quot; → 允许此次安装&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Android 7.0 及以下&lt;/strong&gt;：进入 设置 → 安全 → 勾选&amp;quot;允许未知来源&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="第三步安装-apk"&gt;第三步：安装 APK&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;打开手机上的&amp;quot;文件管理器&amp;quot;或&amp;quot;下载&amp;quot;应用&lt;/li&gt;
-&lt;li&gt;找到下载完成的 Signal APK 文件&lt;/li&gt;
-&lt;li&gt;点击 APK 文件，按照屏幕提示完成安装&lt;/li&gt;
-&lt;li&gt;安装完成后，桌面会出现 Signal 图标&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="第四步注册使用"&gt;第四步：注册使用&lt;/h3&gt;
-&lt;p&gt;打开 Signal，按照提示输入手机号并验证即可完成注册。详细的注册步骤请参考 &lt;a href="https://signalhow.com/guides/registration/"&gt;Signal 注册教程&lt;/a&gt;。&lt;/p&gt;</description></item><item><title>Signal vs Telegram 深度对比评测</title><link>https://signalhow.com/compare/signal-vs-telegram/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/compare/signal-vs-telegram/</guid><description>&lt;p&gt;Signal 和 Telegram 是目前全球最受欢迎的两个加密通讯应用，用户量分别超过 5 亿和 9 亿。但这两个应用在安全设计理念上存在&lt;strong&gt;根本性的差异&lt;/strong&gt;，很多用户并不清楚这种差异意味着什么。本文从加密技术、隐私政策、数据收集、开源透明度等多个维度进行全面深入的对比较析，帮助你做出明智的选择。&lt;/p&gt;
+&lt;p&gt;Android 系统默认禁止安装非应用商店来源的 APK。你需要手动开启：&lt;/p&gt;</description></item><item><title>Signal vs Telegram 深度对比评测</title><link>https://signalhow.com/compare/signal-vs-telegram/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/compare/signal-vs-telegram/</guid><description>&lt;p&gt;Signal 和 Telegram 是目前全球最受欢迎的两个加密通讯应用，用户量分别超过 5 亿和 9 亿。但这两个应用在安全设计理念上存在&lt;strong&gt;根本性的差异&lt;/strong&gt;，很多用户并不清楚这种差异意味着什么。本文从加密技术、隐私政策、数据收集、开源透明度等多个维度进行全面深入的对比较析，帮助你做出明智的选择。&lt;/p&gt;
 &lt;h2 id="核心差异速览"&gt;核心差异速览&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -99,6 +87,7 @@
 &lt;h3 id="signalsignal-protocol"&gt;Signal：Signal Protocol&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Signal_Protocol"&gt;Signal Protocol&lt;/a&gt; 是目前业界公认的黄金标准加密协议，由 Signal Foundation 开发和维护。包括 Google、WhatsApp、Facebook Messenger 等主流应用都采用了 Signal Protocol 或其变体。&lt;/p&gt;</description></item><item><title>Signal 安全吗？2026 年全面安全评估</title><link>https://signalhow.com/safety/is-signal-safe/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/safety/is-signal-safe/</guid><description>&lt;p&gt;Signal 被广泛认为是目前最安全的消费级加密通讯应用之一。无论是安全研究者、隐私倡导者还是主流媒体，都对 Signal 给出了极高的安全评价。本文从加密协议技术原理、独立安全审计结果、元数据保护策略、已知漏洞与修复历史以及与其他加密通讯工具的对比等多个维度，对 Signal 在 2026 年的安全表现进行全面评估。&lt;/p&gt;
 &lt;h2 id="signal-protocol加密协议的技术原理"&gt;Signal Protocol：加密协议的技术原理&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/safety/is-signal-safe/e2ee.jpg" alt="Signal 端对端加密工作原理"&gt;&lt;/p&gt;
 &lt;p&gt;Signal Protocol 是 Signal 应用的核心安全基础，也是整个端对端加密通讯领域最重要的技术贡献之一。它由 Signal 的创始团队（Moxie Marlinswater 等人）设计，最初被称为 TextSecure Protocol，后来逐渐演化为一个被业界广泛采用的加密标准。&lt;/p&gt;
 &lt;h3 id="x3dh-密钥交换协议"&gt;X3DH 密钥交换协议&lt;/h3&gt;
 &lt;p&gt;Signal Protocol 的握手阶段使用的是 Extended Triple Diffie-Hellman（X3DH）密钥交换协议。当你第一次和某人发起聊天时，双方需要通过安全的方式协商出共享密钥，X3DH 就是完成这一过程的核心机制。&lt;/p&gt;
@@ -108,6 +97,7 @@
 &lt;p&gt;&lt;strong&gt;DH 棘轮（Diffie-Hellman Ratchet）&lt;/strong&gt; — 每次发送消息时，发送方都会生成一个新的 DH 密钥对。接收方收到消息后，也用新的 DH 密钥对进行回应。每次密钥交换都会产生新的共享密钥，就像棘轮一样只能向前转，无法回退。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;KDF 链棘轮（KDF Chain Ratchet）&lt;/strong&gt; — 在每次 DH 密钥交换之间，每一轮消息发送都会通过一个单向的密钥派生函数（KDF）从上一个消息密钥推导出下一个消息密钥。这意味着每一条消息使用的加密密钥都是独一无二的。&lt;/p&gt;</description></item><item><title>Signal 换机迁移聊天记录完整教程</title><link>https://signalhow.com/guides/change-phone/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/change-phone/</guid><description>&lt;p&gt;换手机是使用 Signal 过程中最常见的场景之一。无论你是从旧 Android 换到新 Android，还是从 iPhone 换到新 iPhone，Signal 都提供了便捷的数据迁移功能。本文详细介绍各种换机场景下的迁移方法，确保你的聊天记录、媒体文件和设置完整转移到新设备。&lt;/p&gt;
 &lt;h2 id="方法一signal-官方设备迁移推荐"&gt;方法一：Signal 官方设备迁移（推荐）&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/change-phone/wifi-transfer.jpg" alt="Signal 设备间 WiFi 直连传输数据"&gt;&lt;/p&gt;
 &lt;p&gt;Signal 从 v6.0 开始内置了设备迁移功能，这是最简单、最可靠的迁移方式。迁移通过本地 Wi-Fi 直连完成，数据不经过任何云端服务器，确保隐私安全。&lt;/p&gt;
 &lt;h3 id="android-到-android"&gt;Android 到 Android&lt;/h3&gt;
 &lt;ol&gt;
@@ -140,7 +130,7 @@
 &lt;/div&gt;
 
 &lt;h2 id="方法二本地备份与恢复"&gt;方法二：本地备份与恢复&lt;/h2&gt;
-&lt;p&gt;如果官方迁移工具不可用（例如旧手机已损坏无法操作），可以使用 Signal 的本地备份功能。&lt;/p&gt;</description></item><item><title>Signal 注册教程：从下载到完成注册的完整指南</title><link>https://signalhow.com/guides/registration/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/registration/</guid><description>&lt;p&gt;Signal 是全球最安全的加密通讯应用，由非营利组织 &lt;a href="https://signal.org/"&gt;Signal Foundation&lt;/a&gt; 运营。本教程将&lt;strong&gt;手把手教你完成 Signal 的注册&lt;/strong&gt;，从下载安装到验证手机号，以及解决注册过程中可能遇到的常见问题。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/change-phone/backup.jpg" alt="Signal 本地加密备份与恢复"&gt;&lt;/p&gt;</description></item><item><title>Signal 注册教程：从下载到完成注册的完整指南</title><link>https://signalhow.com/guides/registration/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/registration/</guid><description>&lt;p&gt;Signal 是全球最安全的加密通讯应用，由非营利组织 &lt;a href="https://signal.org/"&gt;Signal Foundation&lt;/a&gt; 运营。本教程将&lt;strong&gt;手把手教你完成 Signal 的注册&lt;/strong&gt;，从下载安装到验证手机号，以及解决注册过程中可能遇到的常见问题。&lt;/p&gt;
 
 &lt;div class="callout callout-info"&gt;
  &lt;div class="callout-title"&gt;注册前准备&lt;/div&gt;
@@ -149,6 +139,7 @@
 
 &lt;h2 id="第一步下载-signal"&gt;第一步：下载 Signal&lt;/h2&gt;
 &lt;p&gt;根据你的手机系统，选择对应的下载方式：&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/registration/step1-download.jpg" alt="Signal 下载安装到手机"&gt;&lt;/p&gt;
 &lt;h3 id="android-用户"&gt;Android 用户&lt;/h3&gt;
 &lt;p&gt;由于 Google Play 在中国大陆不可用，推荐从本站直接下载 Signal APK 安装包。前往 &lt;a href="https://signalhow.com/download/android/"&gt;Signal Android 下载页面&lt;/a&gt; 获取最新版 APK 文件。下载后打开文件，按提示完成安装。安装时系统可能提示&amp;quot;来自未知来源的应用&amp;quot;，需要允许安装。&lt;/p&gt;
 &lt;p&gt;具体操作步骤如下：&lt;/p&gt;
@@ -299,6 +290,7 @@
 &lt;h2 id="如何验证安全号码"&gt;如何验证安全号码&lt;/h2&gt;
 &lt;p&gt;Signal 提供了两种验证方法，你可以根据实际情况选择。&lt;/p&gt;
 &lt;h3 id="方法一qr-码扫描验证推荐"&gt;方法一：QR 码扫描验证（推荐）&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/qr-verify.jpg" alt="Signal 安全号码 QR 码扫描验证"&gt;&lt;/p&gt;
 &lt;p&gt;QR 码验证是最快最方便的方式，适合面对面验证：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开与联系人的聊天界面&lt;/li&gt;
@@ -309,6 +301,7 @@
 &lt;/ol&gt;
 &lt;p&gt;QR 码中包含了你的完整安全号码信息，扫描后会自动对比验证。&lt;/p&gt;
 &lt;h3 id="方法二数字指纹对比"&gt;方法二：数字指纹对比&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/fingerprint.jpg" alt="Signal 加密指纹数字对比验证"&gt;&lt;/p&gt;
 &lt;p&gt;数字指纹验证适合远程验证（通过电话或视频通话）：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开与联系人的聊天界面&lt;/li&gt;
@@ -324,14 +317,7 @@
 &lt;/div&gt;
 
 &lt;h2 id="安全号码什么时候会变化"&gt;安全号码什么时候会变化？&lt;/h2&gt;
-&lt;p&gt;安全号码在以下情况下会自动更新：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;联系人重装 Signal&lt;/strong&gt;：卸载后重新安装会生成新的加密密钥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;联系人更换设备&lt;/strong&gt;：在新手机上登录 Signal 会生成新密钥&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;联系人更换手机号&lt;/strong&gt;：使用新的手机号注册相当于新账号&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;安全号码自动轮换&lt;/strong&gt;：Signal 会定期自动轮换加密密钥（约每 100 条消息或每 7 天）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;当安全号码变化时，Signal 会自动在聊天中显示&lt;strong&gt;安全号码已更改&lt;/strong&gt;的警告消息。你需要确认这个变化是否合理（例如对方确实换了新手机），还是可能存在安全问题。&lt;/p&gt;</description></item><item><title>Signal 和 Threema 怎么选？</title><link>https://signalhow.com/compare/signal-vs-threema/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/compare/signal-vs-threema/</guid><description>&lt;p&gt;Signal 和 Threema 都是注重隐私保护的加密通讯应用，但它们的设计理念和目标用户群体存在显著差异。Signal 追求免费、开源、大规模普及；Threema 则专注于匿名性、付费模式和严格的数据隐私。本文从多个维度对比分析两个应用，帮助你做出适合自己的选择。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/safety-number/mitm-protection.jpg" alt="Signal 安全号码防范中间人攻击"&gt;&lt;/p&gt;</description></item><item><title>Signal 和 Threema 怎么选？</title><link>https://signalhow.com/compare/signal-vs-threema/</link><pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/compare/signal-vs-threema/</guid><description>&lt;p&gt;Signal 和 Threema 都是注重隐私保护的加密通讯应用，但它们的设计理念和目标用户群体存在显著差异。Signal 追求免费、开源、大规模普及；Threema 则专注于匿名性、付费模式和严格的数据隐私。本文从多个维度对比分析两个应用，帮助你做出适合自己的选择。&lt;/p&gt;
 &lt;h2 id="核心差异速览"&gt;核心差异速览&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -390,19 +376,11 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="匿名性对比"&gt;匿名性对比&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/compare/signal-vs-threema/anonymity.jpg" alt="Signal 与 Threema 匿名注册机制对比"&gt;&lt;/p&gt;
 &lt;p&gt;这是两个应用最核心的差异。&lt;/p&gt;
 &lt;h3 id="signal手机号绑定"&gt;Signal：手机号绑定&lt;/h3&gt;
 &lt;p&gt;Signal 要求用户使用手机号注册，这意味着 Signal 知道你的手机号码。虽然 Signal 不会将你的手机号暴露给其他用户（只有通讯录中已保存你号码的人才能看到你），但手机号本身就是一个可以关联到你真实身份的标识符。&lt;/p&gt;
-&lt;p&gt;从技术角度来看，Signal 对手机号的处理已经非常隐私友好——它不将手机号与消息内容关联，不记录社交图谱。但手机号注册这一要求本身，对于追求极致匿名的用户来说是一个短板。&lt;/p&gt;
-&lt;h3 id="threema完全匿名"&gt;Threema：完全匿名&lt;/h3&gt;
-&lt;p&gt;Threema 是目前主流加密通讯应用中&lt;strong&gt;匿名性最强&lt;/strong&gt;的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;不需要手机号&lt;/strong&gt;：注册时生成随机 ID，不绑定任何个人信息&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;不需要邮箱&lt;/strong&gt;：无需提供邮箱地址&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;服务器不存储可识别信息&lt;/strong&gt;：Threema 服务器不存储任何可以关联到你真实身份的数据&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;瑞士隐私法保护&lt;/strong&gt;：Threema 总部位于瑞士，受瑞士严格的数据隐私法律保护&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果你需要最高级别的匿名性——例如你是记者、吹哨人、活动家——Threema 是更好的选择。&lt;/p&gt;</description></item><item><title>Signal 桌面版关联手机教程</title><link>https://signalhow.com/guides/desktop-link/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/desktop-link/</guid><description>&lt;p&gt;Signal 桌面版让你可以在电脑上安全地收发消息，无需每次都拿起手机。桌面版需要先在手机上安装 Signal，然后通过二维码扫描关联设备。所有消息通过端对端加密同步，Signal 服务器无法读取传输内容。&lt;/p&gt;
+&lt;p&gt;从技术角度来看，Signal 对手机号的处理已经非常隐私友好——它不将手机号与消息内容关联，不记录社交图谱。但手机号注册这一要求本身，对于追求极致匿名的用户来说是一个短板。&lt;/p&gt;</description></item><item><title>Signal 桌面版关联手机教程</title><link>https://signalhow.com/guides/desktop-link/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/desktop-link/</guid><description>&lt;p&gt;Signal 桌面版让你可以在电脑上安全地收发消息，无需每次都拿起手机。桌面版需要先在手机上安装 Signal，然后通过二维码扫描关联设备。所有消息通过端对端加密同步，Signal 服务器无法读取传输内容。&lt;/p&gt;
 &lt;h2 id="支持的平台"&gt;支持的平台&lt;/h2&gt;
 &lt;p&gt;Signal 桌面版支持以下操作系统：&lt;/p&gt;
 &lt;ul&gt;
@@ -483,7 +461,7 @@
 &lt;li&gt;&lt;strong&gt;账户恢复&lt;/strong&gt;：如果你长时间未使用 Signal 或更换了设备，PIN 可以帮助你恢复账户&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;注册锁&lt;/strong&gt;：启用注册锁后，即使有人获取了你的手机号和验证码，也需要输入 PIN 才能注册新账号，有效防止 SIM 卡劫持攻击&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;设置建议&lt;/strong&gt;：选择一个你能记住但不容易被猜到的 PIN（不要用 1234、0000 等常见组合）。不要和手机锁屏密码相同。&lt;/p&gt;</description></item><item><title>Signal Windows 下载</title><link>https://signalhow.com/download/windows/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/download/windows/</guid><description>&lt;h2 id="signal-windows-版下载"&gt;Signal Windows 版下载&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/setup/pin-lock.jpg" alt="Signal PIN 码锁屏设置"&gt;&lt;/p&gt;</description></item><item><title>Signal Windows 下载</title><link>https://signalhow.com/download/windows/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/download/windows/</guid><description>&lt;h2 id="signal-windows-版下载"&gt;Signal Windows 版下载&lt;/h2&gt;
 &lt;p&gt;Signal 桌面版支持 Windows 10（64-bit）及以上系统，让你可以在电脑上方便地使用 Signal。&lt;/p&gt;
 &lt;h2 id="下载与安装"&gt;下载与安装&lt;/h2&gt;
 &lt;ol&gt;
@@ -575,7 +553,6 @@
 &lt;h3 id="如何更换-signal-的手机号"&gt;如何更换 Signal 的手机号？&lt;/h3&gt;
 &lt;p&gt;Signal 支持在不丢失聊天记录的情况下更换手机号。操作路径：设置 → 账户 → 更改手机号。输入新手机号后，Signal 会发送验证码到新旧两个号码进行确认。更换手机号后，你的联系人会自动更新。如果同时换了新手机，建议先完成 &lt;a href="https://signalhow.com/guides/change-phone/"&gt;换机迁移&lt;/a&gt; 再换号。&lt;/p&gt;
 &lt;h2 id="功能使用相关"&gt;功能使用相关&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/faq/registration-help.jpg" alt="Signal 注册常见问题帮助"&gt;&lt;/p&gt;
 &lt;h3 id="signal-是免费的吗"&gt;Signal 是免费的吗？&lt;/h3&gt;
-&lt;p&gt;是的，Signal &lt;strong&gt;完全免费&lt;/strong&gt;。没有订阅费用、没有广告、没有应用内购买、没有高级功能付费解锁。Signal 由 Signal Foundation（非营利组织）运营，资金来自用户捐款和机构拨款。没有任何商业动机去收集和出售用户数据。&lt;/p&gt;
-&lt;h3 id="如何设置消息自动消失"&gt;如何设置消息自动消失？&lt;/h3&gt;
-&lt;p&gt;Signal 的消息消失功能（Disappearing Messages）可以为单聊或群聊设置定时自动删除。操作方法：打开与联系人的聊天界面 → 点击联系人名称进入聊天设置 → 找到&amp;quot;消失消息&amp;quot;选项并开启 → 选择消失时间（5 秒到 4 周）。你也可以设置全局默认消失时间：设置 → 隐私 → 默认定时消息。详细教程见 &lt;a href="https://signalhow.com/guides/disappearing-messages/"&gt;阅后即焚设置教程&lt;/a&gt;。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;是的，Signal &lt;strong&gt;完全免费&lt;/strong&gt;。没有订阅费用、没有广告、没有应用内购买、没有高级功能付费解锁。Signal 由 Signal Foundation（非营利组织）运营，资金来自用户捐款和机构拨款。没有任何商业动机去收集和出售用户数据。&lt;/p&gt;</description></item></channel></rss>

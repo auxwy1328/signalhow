@@ -10,6 +10,7 @@ category: "使用教程"
 tagClass: "tag-guide"
 tags: ["Signal", "安全号码", "密钥验证", "端对端加密"]
 readTime: "6 分钟"
+images: ["/images/guides/safety-number/cover.jpg"]
 ---
 
 Signal 的安全号码（Safety Number）是一项关键的安全功能，用于验证你与联系人的端对端加密是否安全。理解并正确使用安全号码验证，可以帮你防范中间人攻击（MITM），确保你的通讯真正安全。本文详细介绍安全号码的工作原理和验证方法。
@@ -39,6 +40,8 @@ Signal 提供了两种验证方法，你可以根据实际情况选择。
 
 ### 方法一：QR 码扫描验证（推荐）
 
+![Signal 安全号码 QR 码扫描验证](/images/guides/safety-number/qr-verify.jpg)
+
 QR 码验证是最快最方便的方式，适合面对面验证：
 
 1. 打开与联系人的聊天界面
@@ -50,6 +53,8 @@ QR 码验证是最快最方便的方式，适合面对面验证：
 QR 码中包含了你的完整安全号码信息，扫描后会自动对比验证。
 
 ### 方法二：数字指纹对比
+
+![Signal 加密指纹数字对比验证](/images/guides/safety-number/fingerprint.jpg)
 
 数字指纹验证适合远程验证（通过电话或视频通话）：
 
@@ -65,6 +70,9 @@ QR 码中包含了你的完整安全号码信息，扫描后会自动对比验�
 {{< /callout >}}
 
 ## 安全号码什么时候会变化？
+
+
+![Signal 安全号码防范中间人攻击](/images/guides/safety-number/mitm-protection.jpg)
 
 安全号码在以下情况下会自动更新：
 

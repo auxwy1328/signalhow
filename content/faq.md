@@ -5,6 +5,7 @@ date: 2026-04-01
 section: faq
 slug: faq
 tags: ["Signal", "常见问题", "FAQ"]
+images: ["/images/faq/cover.jpg"]
 ---
 
 以下是 Signal 用户最常遇到的问题和详细解答，涵盖注册、功能、隐私、网络等多个方面。如果你在这里没有找到答案，可以查看我们的 [Signal 注册教程](/guides/registration/) 或 [设置指南](/guides/setup/) 获取更多信息。
@@ -37,6 +38,8 @@ Signal 支持在不丢失聊天记录的情况下更换手机号。操作路径�
 
 ## 功能使用相关
 
+![Signal 注册常见问题帮助](/images/faq/registration-help.jpg)
+
 ### Signal 是免费的吗？
 
 是的，Signal **完全免费**。没有订阅费用、没有广告、没有应用内购买、没有高级功能付费解锁。Signal 由 Signal Foundation（非营利组织）运营，资金来自用户捐款和机构拨款。没有任何商业动机去收集和出售用户数据。
@@ -59,6 +62,8 @@ Signal 支持 **Android、iOS、Windows、macOS 和 Linux** 五大平台。桌�
 
 ## 隐私安全相关
 
+![Signal 隐私安全常见问题](/images/faq/privacy-faq.jpg)
+
 ### Signal 的端对端加密是什么意思？
 
 端对端加密（End-to-End Encryption，E2EE）意味着只有通讯的双方可以阅读消息内容，**中间的任何环节（包括 Signal 的服务器、网络运营商、政府机构）都无法解密消息**。即使 Signal 的服务器被入侵，攻击者也只能看到一堆无法解密的乱码。Signal 使用自研的 Signal Protocol 实现端对端加密，这是目前业界公认最安全的加密协议之一。
@@ -78,6 +83,9 @@ Signal 支持最多 5 台设备同时链接。所有设备之间的数据同步�
 ## 网络与性能相关
 
 ### Signal 消息发送失败怎么办？
+
+
+![Signal 故障排查与问题解决](/images/faq/troubleshooting.jpg)
 
 消息发送失败通常与网络连接有关。解决方案：检查网络连接、尝试从 Wi-Fi 切换到移动数据、重启 Signal 应用、更新应用到最新版本。如果仍然无法解决，可能是 Signal 服务暂时不可用。
 

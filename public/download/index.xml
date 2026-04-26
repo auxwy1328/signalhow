@@ -16,23 +16,11 @@
 &lt;/div&gt;
 
 &lt;h2 id="安装步骤"&gt;安装步骤&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/download/android/install.jpg" alt="Signal APK 安装步骤"&gt;&lt;/p&gt;
 &lt;h3 id="第一步下载-apk-文件"&gt;第一步：下载 APK 文件&lt;/h3&gt;
 &lt;p&gt;选择上述渠道之一下载 Signal APK 安装包。文件名通常为 &lt;code&gt;Signal-Android-xxx.apk&lt;/code&gt;。&lt;/p&gt;
 &lt;h3 id="第二步允许安装未知来源应用"&gt;第二步：允许安装未知来源应用&lt;/h3&gt;
-&lt;p&gt;Android 系统默认禁止安装非应用商店来源的 APK。你需要手动开启：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Android 8.0 及以上&lt;/strong&gt;：安装时系统会弹出提示，点击&amp;quot;设置&amp;quot; → 允许此次安装&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Android 7.0 及以下&lt;/strong&gt;：进入 设置 → 安全 → 勾选&amp;quot;允许未知来源&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="第三步安装-apk"&gt;第三步：安装 APK&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;打开手机上的&amp;quot;文件管理器&amp;quot;或&amp;quot;下载&amp;quot;应用&lt;/li&gt;
-&lt;li&gt;找到下载完成的 Signal APK 文件&lt;/li&gt;
-&lt;li&gt;点击 APK 文件，按照屏幕提示完成安装&lt;/li&gt;
-&lt;li&gt;安装完成后，桌面会出现 Signal 图标&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="第四步注册使用"&gt;第四步：注册使用&lt;/h3&gt;
-&lt;p&gt;打开 Signal，按照提示输入手机号并验证即可完成注册。详细的注册步骤请参考 &lt;a href="https://signalhow.com/guides/registration/"&gt;Signal 注册教程&lt;/a&gt;。&lt;/p&gt;</description></item><item><title>Signal iOS 下载</title><link>https://signalhow.com/download/ios/</link><pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/download/ios/</guid><description>&lt;h2 id="signal-ios-版下载"&gt;Signal iOS 版下载&lt;/h2&gt;
+&lt;p&gt;Android 系统默认禁止安装非应用商店来源的 APK。你需要手动开启：&lt;/p&gt;</description></item><item><title>Signal iOS 下载</title><link>https://signalhow.com/download/ios/</link><pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/download/ios/</guid><description>&lt;h2 id="signal-ios-版下载"&gt;Signal iOS 版下载&lt;/h2&gt;
 &lt;p&gt;Signal iOS 版支持 iOS 14.0 及以上系统，兼容 iPhone 和 iPad。&lt;/p&gt;
 &lt;h2 id="下载方式"&gt;下载方式&lt;/h2&gt;
 &lt;h3 id="方式一app-store推荐"&gt;方式一：App Store（推荐）&lt;/h3&gt;
