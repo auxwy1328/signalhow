@@ -908,6 +908,11 @@
     justify-content: center;
     border: 1px solid var(--border);
   }
+  .article-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .article-cover-placeholder {
     text-align: center;
     color: var(--text-muted);
@@ -978,6 +983,15 @@
   }
   .article-content a:hover {
     border-bottom-color: var(--signal-blue);
+  }
+  .article-content img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin: 24px 0;
+    border: 1px solid var(--border);
   }
 
   /* Steps Component */
