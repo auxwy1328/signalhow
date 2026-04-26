@@ -1,26 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全分析 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E5%AE%89%E5%85%A8%E5%88%86%E6%9E%90/</link><description>Recent content in 安全分析 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E5%AE%89%E5%85%A8%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 安全吗？2026 年全面安全评估</title><link>https://signalhow.com/safety/is-signal-safe/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/safety/is-signal-safe/</guid><description>&lt;p&gt;Signal 被广泛认为是最安全的消费级加密通讯应用。本文从多个技术维度评估 Signal 的安全性。&lt;/p&gt;
-&lt;h2 id="加密协议signal-protocol"&gt;加密协议：Signal Protocol&lt;/h2&gt;
-&lt;p&gt;Signal Protocol 是 Signal 应用的核心安全基础，具有以下特性：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;端对端加密（E2EE）&lt;/strong&gt; — 只有通讯双方可以解密消息&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;前向保密&lt;/strong&gt; — 每次会话使用新密钥，即使密钥泄露也无法解密历史消息&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;未来保密&lt;/strong&gt; — 即使未来量子计算机出现，也无法解密当前的消息&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;双棘轮协议&lt;/strong&gt; — 结合 KDF 链棘轮和 DH 棘轮，提供持续的安全密钥更新&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Signal Protocol 已被 WhatsApp、Google Messages、Facebook Messenger 等主流应用采用，是业界标准。&lt;/p&gt;
-&lt;h2 id="开源与可审计性"&gt;开源与可审计性&lt;/h2&gt;
-&lt;p&gt;Signal 的所有核心组件都是开源的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;客户端&lt;/strong&gt; — Android、iOS、桌面端全部开源（GitHub）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;服务端&lt;/strong&gt; — Signal 服务器代码开源&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;加密协议&lt;/strong&gt; — Signal Protocol 有完整的学术规范&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这意味着全球安全研究者可以审查 Signal 的代码，发现潜在的安全问题。&lt;/p&gt;
-&lt;h2 id="独立安全审计"&gt;独立安全审计&lt;/h2&gt;
-&lt;p&gt;Signal 定期接受第三方安全机构的审计：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cure53&lt;/strong&gt; — 德国安全公司，多次审计 Signal 客户端&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ISE（Independent Security Evaluators）&lt;/strong&gt; — 独立安全评估机构&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Trail of Bits&lt;/strong&gt; — 知名安全审计公司&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;所有审计报告均公开发布，审计中发现的任何问题都会被及时修复。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全分析 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E5%AE%89%E5%85%A8%E5%88%86%E6%9E%90/</link><description>Recent content in 安全分析 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E5%AE%89%E5%85%A8%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 安全吗？2026 年全面安全评估</title><link>https://signalhow.com/safety/is-signal-safe/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/safety/is-signal-safe/</guid><description>&lt;p&gt;Signal 被广泛认为是目前最安全的消费级加密通讯应用之一。无论是安全研究者、隐私倡导者还是主流媒体，都对 Signal 给出了极高的安全评价。本文从加密协议技术原理、独立安全审计结果、元数据保护策略、已知漏洞与修复历史以及与其他加密通讯工具的对比等多个维度，对 Signal 在 2026 年的安全表现进行全面评估。&lt;/p&gt;
+&lt;h2 id="signal-protocol加密协议的技术原理"&gt;Signal Protocol：加密协议的技术原理&lt;/h2&gt;
+&lt;p&gt;Signal Protocol 是 Signal 应用的核心安全基础，也是整个端对端加密通讯领域最重要的技术贡献之一。它由 Signal 的创始团队（Moxie Marlinswater 等人）设计，最初被称为 TextSecure Protocol，后来逐渐演化为一个被业界广泛采用的加密标准。&lt;/p&gt;
+&lt;h3 id="x3dh-密钥交换协议"&gt;X3DH 密钥交换协议&lt;/h3&gt;
+&lt;p&gt;Signal Protocol 的握手阶段使用的是 Extended Triple Diffie-Hellman（X3DH）密钥交换协议。当你第一次和某人发起聊天时，双方需要通过安全的方式协商出共享密钥，X3DH 就是完成这一过程的核心机制。&lt;/p&gt;
+&lt;p&gt;X3DH 协议的基本流程如下：发送方首先从 Signal 服务器获取接收方的预共享密钥_bundle_，这个 bundle 包含接收方的长期身份密钥（Identity Key）、已签名预共享密钥（Signed Pre-Key）以及若干一次性预共享密钥（One-Time Pre-Keys）。发送方利用这些密钥材料，结合自己的身份密钥和临时生成的临时密钥（Ephemeral Key），通过三轮 Diffie-Hellman 密钥交换计算出共享密钥。这个过程中，即使 Signal 的服务器被完全攻破，攻击者也无法计算出通讯双方的共享密钥，因为完成计算所需的私钥始终只存在于用户的设备上。&lt;/p&gt;
+&lt;h3 id="double-ratchet-双棘轮协议"&gt;Double Ratchet 双棘轮协议&lt;/h3&gt;
+&lt;p&gt;密钥协商完成之后，Signal Protocol 使用 Double Ratchet 协议来持续更新会话密钥。Double Ratchet 的名字来源于它使用了两个&amp;quot;棘轮&amp;quot;机制：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DH 棘轮（Diffie-Hellman Ratchet）&lt;/strong&gt; — 每次发送消息时，发送方都会生成一个新的 DH 密钥对。接收方收到消息后，也用新的 DH 密钥对进行回应。每次密钥交换都会产生新的共享密钥，就像棘轮一样只能向前转，无法回退。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;KDF 链棘轮（KDF Chain Ratchet）&lt;/strong&gt; — 在每次 DH 密钥交换之间，每一轮消息发送都会通过一个单向的密钥派生函数（KDF）从上一个消息密钥推导出下一个消息密钥。这意味着每一条消息使用的加密密钥都是独一无二的。&lt;/p&gt;</description></item></channel></rss>

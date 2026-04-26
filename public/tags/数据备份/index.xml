@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据备份 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/</link><description>Recent content in 数据备份 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 换机迁移聊天记录完整教程</title><link>https://signalhow.com/guides/change-phone/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/change-phone/</guid><description>&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
-&lt;p&gt;换手机是使用 Signal 过程中最常见的场景之一。幸运的是，Signal 提供了完善的设备迁移功能，可以将所有聊天记录、媒体文件和设置完整转移到新设备。&lt;/p&gt;
-&lt;h2 id="方法一signal-官方迁移工具"&gt;方法一：Signal 官方迁移工具&lt;/h2&gt;
-&lt;p&gt;Signal 从 v6.0 开始内置了设备迁移功能，这是最简单的迁移方式。&lt;/p&gt;
-&lt;h3 id="从旧-android-到新-android"&gt;从旧 Android 到新 Android&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据备份 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/</link><description>Recent content in 数据备份 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 换机迁移聊天记录完整教程</title><link>https://signalhow.com/guides/change-phone/</link><pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/change-phone/</guid><description>&lt;p&gt;换手机是使用 Signal 过程中最常见的场景之一。无论你是从旧 Android 换到新 Android，还是从 iPhone 换到新 iPhone，Signal 都提供了便捷的数据迁移功能。本文详细介绍各种换机场景下的迁移方法，确保你的聊天记录、媒体文件和设置完整转移到新设备。&lt;/p&gt;
+&lt;h2 id="方法一signal-官方设备迁移推荐"&gt;方法一：Signal 官方设备迁移（推荐）&lt;/h2&gt;
+&lt;p&gt;Signal 从 v6.0 开始内置了设备迁移功能，这是最简单、最可靠的迁移方式。迁移通过本地 Wi-Fi 直连完成，数据不经过任何云端服务器，确保隐私安全。&lt;/p&gt;
+&lt;h3 id="android-到-android"&gt;Android 到 Android&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;在旧手机上打开 Signal，进入 &lt;strong&gt;设置 → 聊天 → 迁移账户&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;选择 &lt;strong&gt;&amp;ldquo;从此设备迁移&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;新手机安装 Signal 后打开，选择 &lt;strong&gt;&amp;ldquo;从其他设备迁移&amp;rdquo;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;两台手机连接同一个 Wi-Fi 网络&lt;/li&gt;
-&lt;li&gt;用旧手机扫描新手机上的二维码&lt;/li&gt;
-&lt;li&gt;等待迁移完成，不要中途关闭应用&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;旧手机准备&lt;/strong&gt;：打开 Signal → 设置 → 聊天 → 迁移账户 → 选择&amp;quot;从此设备迁移&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新手机准备&lt;/strong&gt;：在新手机上安装 Signal（&lt;a href="https://signalhow.com/download/android/"&gt;Android 下载&lt;/a&gt;），打开后选择&amp;quot;从其他设备迁移&amp;quot;（不要选择注册新账号）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;连接同一 Wi-Fi&lt;/strong&gt;：确保两台手机连接到同一个 Wi-Fi 网络&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;扫描 QR 码&lt;/strong&gt;：用旧手机扫描新手机屏幕上显示的 QR 码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;等待迁移完成&lt;/strong&gt;：迁移过程中不要关闭任何一台手机上的 Signal，不要接打电话或切换到其他应用&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id="从旧-iphone-到新-iphone"&gt;从旧 iPhone 到新 iPhone&lt;/h3&gt;
+&lt;p&gt;迁移时间取决于聊天记录数量和媒体文件大小。10 GB 的数据大约需要 10-30 分钟。&lt;/p&gt;
+&lt;h3 id="iphone-到-iphone"&gt;iPhone 到 iPhone&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;确保两台 iPhone 已更新到最新版 iOS&lt;/li&gt;
-&lt;li&gt;在旧 iPhone 上打开 Signal → 设置 → 聊天 → 迁移账户&lt;/li&gt;
-&lt;li&gt;选择从此设备迁移，等待生成迁移代码&lt;/li&gt;
-&lt;li&gt;在新 iPhone 上安装 Signal，打开后选择从其他设备迁移&lt;/li&gt;
-&lt;li&gt;输入旧手机显示的迁移代码&lt;/li&gt;
-&lt;li&gt;等待迁移完成&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;旧手机准备&lt;/strong&gt;：打开 Signal → 设置 → 聊天 → 迁移账户 → 选择&amp;quot;从此设备迁移&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新手机准备&lt;/strong&gt;：在新 iPhone 上安装 Signal，打开后选择&amp;quot;从其他设备迁移&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;等待生成迁移码&lt;/strong&gt;：旧手机会生成一组数字迁移码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输入迁移码&lt;/strong&gt;：在新手机上输入旧手机显示的迁移码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;等待迁移完成&lt;/strong&gt;：保持两台手机开启并连接网络&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="方法二手动备份与恢复"&gt;方法二：手动备份与恢复&lt;/h2&gt;
-&lt;p&gt;如果官方迁移工具不可用，可以使用 Signal 的本地备份功能。&lt;/p&gt;
-&lt;h3 id="android-备份步骤"&gt;Android 备份步骤&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;打开 Signal → 设置 → 聊天 → 聊天备份&lt;/li&gt;
-&lt;li&gt;开启 &lt;strong&gt;&amp;ldquo;创建备份&amp;rdquo;&lt;/strong&gt; 并设置备份频率&lt;/li&gt;
-&lt;li&gt;Signal 会将加密备份保存到本地存储&lt;/li&gt;
-&lt;li&gt;将备份文件（&lt;code&gt;signal_backup Key&lt;/code&gt; 和备份文件夹）复制到新手机&lt;/li&gt;
-&lt;li&gt;在新手机上安装 Signal，注册同一个手机号&lt;/li&gt;
-&lt;li&gt;Signal 会自动检测到备份文件并提示恢复&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="ios-备份步骤"&gt;iOS 备份步骤&lt;/h3&gt;
-&lt;p&gt;iOS 版 Signal 的备份通过 iCloud 完成：&lt;/p&gt;</description></item></channel></rss>
+&lt;h3 id="注意事项"&gt;注意事项&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;迁移完成后，&lt;strong&gt;旧手机上的数据不会被自动删除&lt;/strong&gt;，你可以手动清除&lt;/li&gt;
+&lt;li&gt;如果迁移中断，重新开始即可，Signal 支持&lt;strong&gt;断点续传&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;迁移过程中请确保两台手机电量充足（建议 50% 以上）&lt;/li&gt;
+&lt;li&gt;新手机上的 Signal 会继承旧手机的设置，包括 &lt;a href="https://signalhow.com/guides/setup/"&gt;隐私设置&lt;/a&gt;、PIN 码和消失消息配置&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="callout callout-info"&gt;
+ &lt;div class="callout-title"&gt;2024 年新架构&lt;/div&gt;
+ 2024 年后 Signal 更新了多设备架构，支持桌面版独立使用。如果你需要在新设备上独立使用 Signal（而不迁移旧设备数据），可以参考 &lt;a href="https://signalhow.com/guides/desktop-link/"&gt;Signal 桌面版关联手机教程&lt;/a&gt; 了解多设备管理。
+&lt;/div&gt;
+
+&lt;h2 id="方法二本地备份与恢复"&gt;方法二：本地备份与恢复&lt;/h2&gt;
+&lt;p&gt;如果官方迁移工具不可用（例如旧手机已损坏无法操作），可以使用 Signal 的本地备份功能。&lt;/p&gt;</description></item></channel></rss>
