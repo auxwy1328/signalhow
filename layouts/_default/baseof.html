@@ -8,6 +8,7 @@
   {{ block "main" . }}{{ end }}
   {{ partial "footer.html" . }}
   {{ partial "mobile-nav.html" . }}
+  {{ partial "search.html" . }}
   {{ partial "schema.html" . }}
   <script>
     function switchTab(el) {
@@ -20,6 +21,62 @@
       document.querySelectorAll('.faq-item').forEach(function(i) { i.classList.remove('open'); });
       if (!wasOpen) item.classList.add('open');
     }
+  </script>
+  <script src="/pagefind/pagefind.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var overlay = document.getElementById('searchOverlay');
+      var input = document.getElementById('pagefindInput');
+      var closeBtn = document.getElementById('searchClose');
+      var openBtns = document.querySelectorAll('#searchOpen');
+      var resultsDiv = document.getElementById('searchResults');
+
+      function openSearch() {
+        overlay.classList.add('active');
+        setTimeout(function() { input.focus(); }, 100);
+      }
+      function closeSearch() {
+        overlay.classList.remove('active');
+        input.value = '';
+        resultsDiv.innerHTML = '';
+      }
+
+      openBtns.forEach(function(btn) { btn.addEventListener('click', openSearch); });
+      closeBtn.addEventListener('click', closeSearch);
+      overlay.addEventListener('click', function(e) { if (e.target === overlay) closeSearch(); });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeSearch();
+        if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+      });
+
+      var searchTimeout;
+      input.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        var q = input.value.trim();
+        if (q.length < 1) { resultsDiv.innerHTML = ''; return; }
+        resultsDiv.innerHTML = '<div class="search-loading">搜索中...</div>';
+        searchTimeout = setTimeout(async function() {
+          try {
+            var search = await window.pagefind.search(q);
+            var results = await Promise.all(search.results.slice(0, 8).map(function(r) { return r.data(); }));
+            if (results.length === 0) {
+              resultsDiv.innerHTML = '<div class="search-empty">没有找到相关内容</div>';
+              return;
+            }
+            var html = '';
+            results.forEach(function(r) {
+              html += '<a href="' + r.url + '" class="search-item" onclick="closeSearch()">';
+              html += '<div class="search-item-title">' + r.meta.title + '</div>';
+              if (r.excerpt) html += '<div class="search-item-excerpt">' + r.excerpt + '</div>';
+              html += '</a>';
+            });
+            resultsDiv.innerHTML = html;
+          } catch(e) {
+            resultsDiv.innerHTML = '<div class="search-empty">搜索出错，请稍后重试</div>';
+          }
+        }, 200);
+      });
+    });
   </script>
 </body>
 </html>
