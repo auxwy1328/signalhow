@@ -123,7 +123,7 @@
   </div>
   <div class="compare-grid">
     {{- range $compares }}
-    <div class="compare-card">
+    <a class="compare-card" href="{{ .Permalink }}" style="text-decoration:none;color:inherit;">
       <div class="compare-vs">
         <div class="compare-app">
           <div class="compare-app-icon signal-icon">S</div>
@@ -144,7 +144,7 @@
         {{- end }}
       </div>
       {{- end }}
-    </div>
+    </a>
     {{- end }}
   </div>
 </section>
