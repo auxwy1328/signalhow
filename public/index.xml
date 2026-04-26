@@ -578,7 +578,7 @@
 &lt;h3 id="signal-是免费的吗"&gt;Signal 是免费的吗？&lt;/h3&gt;
 &lt;p&gt;是的，Signal &lt;strong&gt;完全免费&lt;/strong&gt;。没有订阅费用、没有广告、没有应用内购买、没有高级功能付费解锁。Signal 由 Signal Foundation（非营利组织）运营，资金来自用户捐款和机构拨款。没有任何商业动机去收集和出售用户数据。&lt;/p&gt;
 &lt;h3 id="如何设置消息自动消失"&gt;如何设置消息自动消失？&lt;/h3&gt;
-&lt;p&gt;Signal 的消息消失功能（Disappearing Messages）可以为单聊或群聊设置定时自动删除。操作方法：&lt;/p&gt;</description></item><item><title>关于 SignalHow</title><link>https://signalhow.com/about/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/about/</guid><description>&lt;h2 id="关于我们"&gt;关于我们&lt;/h2&gt;
+&lt;p&gt;Signal 的消息消失功能（Disappearing Messages）可以为单聊或群聊设置定时自动删除。操作方法：打开与联系人的聊天界面 → 点击联系人名称进入聊天设置 → 找到&amp;quot;消失消息&amp;quot;选项并开启 → 选择消失时间（5 秒到 4 周）。你也可以设置全局默认消失时间：设置 → 隐私 → 默认定时消息。详细教程见 &lt;a href="https://signalhow.com/guides/disappearing-messages/"&gt;阅后即焚设置教程&lt;/a&gt;。&lt;/p&gt;</description></item><item><title>关于 SignalHow</title><link>https://signalhow.com/about/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/about/</guid><description>&lt;h2 id="关于我们"&gt;关于我们&lt;/h2&gt;
 &lt;p&gt;SignalHow 是一个专注于 Signal 加密通讯应用的中文资源站。我们的目标是为中文用户提供全面、准确、易懂的 Signal 使用指南。&lt;/p&gt;
 &lt;h2 id="我们的使命"&gt;我们的使命&lt;/h2&gt;
 &lt;ul&gt;

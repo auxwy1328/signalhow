@@ -60,8 +60,8 @@
 </script>
 {{- end }}
 
-{{- if eq .Section "faq" }}
-{{- with .Params.faq }}
+{{- if or (eq .Section "faq") (eq .RelPermalink "/faq/") (strings.Contains .RelPermalink "/faq") }}
+{{- with hugo.Data.faq }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
