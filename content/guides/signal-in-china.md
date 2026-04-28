@@ -30,7 +30,7 @@ Signal 的即时通讯服务依赖于 AWS（亚马逊云）、Google Cloud 等�
 2. **连接可能被主动重置**：即使 DNS 解析成功，与 Signal 服务器之间的 TLS 连接可能被检测并中断
 3. **IP 路由可能被干扰**：部分国际 IP 段的路由可达性不稳定，导致连接时断时续
 
-这些问题并非 Signal 独有——Telegram、WhatsApp 等国际通讯应用在中国大陆也面临类似的网络环境限制。关键在于找到稳定的网络连接方案。
+这些问题并非 Signal 独有——Telegram、WhatsApp 等国际通讯应用在中国大陆也面临类似的网络环境限制。关键在于找到稳定的网络连接方案。如果你同时使用 Telegram，可以参考这篇[中国大陆使用教程](https://telegramsecure.com/guides/china-usage/)来配置网络环境。
 
 ## 方案一：使用 VPN（最主流的选择）
 

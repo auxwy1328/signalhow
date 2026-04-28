@@ -117,7 +117,7 @@ Telegram 的开源情况相对有限：
 - **服务端代码**：**不开源**，这是最大的问题
 - **MTProto 协议**：自研协议，虽然公布了一些技术细节，但未经过同等程度的外部安全审计
 
-服务端代码不开源意味着我们无法验证 Telegram 的服务器是否按其声称的方式运行。虽然 Telegram 声称保护用户隐私，但没有独立第三方能够验证这一点。如果你想深入了解加密通讯应用的安全架构，推荐阅读 [Signal 安全评估报告](/safety/is-signal-safe/)。如果你想了解 Telegram 一侧的完整安全分析，可以参阅 [Telegram 加密原理详解](https://telegramsecure.com/safety/is-telegram-safe/)。
+服务端代码不开源意味着我们无法验证 Telegram 的服务器是否按其声称的方式运行。虽然 Telegram 声称保护用户隐私，但没有独立第三方能够验证这一点。如果你想深入了解加密通讯应用的安全架构，推荐阅读 [Signal 安全评估报告](/safety/is-signal-safe/)。如果你想了解 Telegram 一侧的完整安全分析，可以参阅 [Telegram 加密原理详解](https://telegramsecure.com/safety/is-telegram-safe/)。此外，如果你想从 Telegram 用户的角度看两者的差异，可以参考这篇[对比分析](https://telegramsecure.com/compare/telegram-vs-signal/)，了解 Telegram 社区对 Signal 的评价。
 
 ## 功能与易用性对比
 
@@ -162,7 +162,7 @@ Signal 在功能上更加精简，专注于安全通讯这一核心功能。Tele
 
 ### 最佳实践：两个都用
 
-实际上，很多安全专家的建议是**同时使用两个应用**：用 Signal 处理敏感通讯，用 Telegram 进行日常社交和群组互动。这样可以在享受 Telegram 丰富功能的同时，确保重要对话的安全性。
+实际上，很多安全专家的建议是**同时使用两个应用**：用 Signal 处理敏感通讯，用 Telegram 进行日常社交和群组互动。这样可以在享受 Telegram 丰富功能的同时，确保重要对话的安全性。如果你选择使用 Telegram，建议仔细配置好各项隐私选项，[Telegram 隐私设置的完整指南请参考这里](https://telegramsecure.com/safety/privacy-settings/)。
 
 如果你想尝试 Signal，可以从 [Signal 注册教程](/guides/registration/) 开始。如果你已经在使用 Signal，建议查看 [Signal 初次设置完整指南](/guides/setup/) 来完善你的隐私安全设置。
 

@@ -115,7 +115,7 @@ Trail of Bits 是全球顶尖的安全审计公司之一，专注于加密系统
 
 **Signal vs Threema**：Threema 是瑞士的付费加密通讯应用，不需要手机号注册。Threema 的加密方案也很强，但其闭源性质一直受到安全社区的质疑。在 [Signal vs Threema](/compare/signal-vs-threema/) 对比中可以看到两者各有优劣。
 
-[电子前哨基金会（EFF）](https://eff.org) 在其安全通讯指南中将 Signal 列为推荐应用，这也是对 Signal 安全性的重要背书。
+[电子前哨基金会（EFF）](https://eff.org) 在其安全通讯指南中将 Signal 列为推荐应用，这也是对 Signal 安全性的重要背书。如果想对比更多加密通讯工具的安全性，可以查看这份[综合评测](https://chatjiami.com/reviews/safest-encrypted-chat/)，了解当前主流加密应用的安全排名与特色。
 
 ## 2026 年安全状态总结
 

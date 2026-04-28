@@ -183,7 +183,7 @@ WhatsApp 正在推进端对端加密备份功能，但这需要用户手动开�
 
 ### 哪个应用更安全，Signal 还是 [Telegram](/compare/signal-vs-telegram/)？
 
-从纯安全角度排名：**Signal > Telegram > WhatsApp**。Signal 默认端对端加密且数据收集最少；Telegram 普通聊天不加密但私密聊天加密；WhatsApp 虽然加密但数据收集最多且与 Meta 共享。详细对比见 [Signal vs Telegram 评测](/compare/signal-vs-telegram/)。
+从纯安全角度排名：**Signal > Telegram > WhatsApp**。Signal 默认端对端加密且数据收集最少；Telegram 普通聊天不加密但私密聊天加密；WhatsApp 虽然加密但数据收集最多且与 Meta 共享。详细对比见 [Signal vs Telegram 评测](/compare/signal-vs-telegram/)。WhatsApp 与 Signal 的详细安全对比也可以参考这篇[独立评测](https://chatjiami.com/reviews/whatsapp-vs-signal/)，从更多维度进行分析。
 
 ![Signal 与 WhatsApp 安全性对比](/images/compare/signal-vs-whatsapp/security.jpg)
 
