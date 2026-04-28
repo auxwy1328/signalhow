@@ -8,6 +8,7 @@ category: "版本更新"
 tagClass: "tag-update"
 emoji: "🐧"
 readTime: "3 分钟"
+images: ["/images/download/linux/cover.jpg"]
 ---
 
 ## Signal Linux 版安装

@@ -8,6 +8,7 @@ category: "版本更新"
 tagClass: "tag-update"
 emoji: "💻"
 readTime: "2 分钟"
+images: ["/images/download/mac/cover.jpg"]
 ---
 
 ## Signal macOS 版下载

@@ -8,6 +8,7 @@ category: "版本更新"
 tagClass: "tag-update"
 emoji: "🪟"
 readTime: "3 分钟"
+images: ["/images/download/windows/cover.jpg"]
 ---
 
 ## Signal Windows 版下载
