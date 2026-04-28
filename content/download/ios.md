@@ -1,6 +1,6 @@
 ---
 title: "Signal iOS 下载"
-description: "Signal iOS 版下载安装完整指南：通过 App Store 即可免费下载安装 Signal，全面支持 iPhone 和 iPad，兼容 iOS 14.0 及以上系统，含中国大陆用户下载注意事项。"
+description: "Signal iOS客户端完整下载安装教程指南：教你如何通过App Store搜索、下载并安装Signal安全通讯应用，全面支持iPhone和iPad全系列设备，最低要求iOS 14.0及以上系统版本，为中国大陆用户提供从安装到注册的完整步骤说明与常见问题故障排查解答。"
 date: 2026-04-10
 slug: "ios"
 tags: ["Signal", "iOS", "iPhone"]

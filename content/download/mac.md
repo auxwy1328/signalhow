@@ -1,6 +1,6 @@
 ---
 title: "Signal macOS 下载"
-description: "Signal macOS 桌面版下载安装完整指南：支持 macOS 10.13 High Sierra 及以上系统，同时提供 Intel 芯片和 Apple Silicon（M1/M2）两个原生版本，扫码关联即可使用。"
+description: "Signal macOS桌面客户端下载安装完整操作指南，全面支持macOS 10.13 High Sierra及以上所有系统版本，同时提供Intel芯片和Apple Silicon M1、M2、M3处理器的原生优化版本，安装后通过手机扫码即可快速链接，让你在Mac电脑上也能便捷安全地使用Signal进行日常通讯。"
 date: 2026-04-06
 slug: "mac"
 tags: ["Signal", "macOS", "桌面版"]

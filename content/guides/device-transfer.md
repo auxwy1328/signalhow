@@ -1,6 +1,6 @@
 ---
 title: "Signal 换机迁移聊天记录完整教程"
-description: "Signal 换手机聊天记录完整迁移教程：详细介绍如何通过设备直连传输功能将所有聊天记录、媒体文件和设置迁移到新设备，支持 Android 到 iOS 等跨平台无缝迁移。"
+description: "Signal旧手机到新手机聊天记录完整迁移教程，详细介绍通过设备间直连传输方式将所有加密对话历史、媒体文件和联系人数据完整迁移到新设备上的操作步骤，全面支持Android到Android、iOS到iOS以及Android与iOS之间的跨平台数据迁移转移。"
 date: 2026-04-15
 slug: "change-phone"
 section: guides

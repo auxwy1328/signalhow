@@ -1,6 +1,6 @@
 ---
 title: "Signal Windows 下载"
-description: "Signal Windows 桌面版免费下载安装指南：支持 Windows 10 及以上系统，需先在手机端安装 Signal 并通过二维码扫描关联设备后，即可在电脑上安全收发消息。"
+description: "Signal Windows桌面客户端下载安装完整操作指南，全面支持Windows 10及Windows 11系统版本，安装完成后通过手机端扫描二维码即可成功连接设备，让你在电脑上也能安全便捷地收发消息和进行语音通话，大幅提升日常通讯的工作效率与使用体验。"
 date: 2026-04-08
 slug: "windows"
 tags: ["Signal", "Windows", "桌面版"]

@@ -1,6 +1,6 @@
 ---
 title: "Signal 群组功能完整教程"
-description: "Signal 群组创建与管理完整教程：介绍群组创建、成员管理、权限设置、群组链接分享、群组加密原理、消息消失、投票等功能，帮助你高效管理 Signal 群组。"
+description: "Signal群组聊天创建与高级管理功能完整教程，涵盖新群组创建、成员邀请与加入方式、管理员权限分配、群公告编辑发布、群链接安全分享、群组链接重置、消息自动消失设置以及群内投票功能使用，帮助你高效管理Signal群组并全面提升团队协作沟通体验。"
 date: 2026-04-26
 images: ["/images/guides/group-chat/cover.jpg"]
 slug: "group-chat"

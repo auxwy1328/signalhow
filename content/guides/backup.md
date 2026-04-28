@@ -1,6 +1,6 @@
 ---
 title: "Signal 备份聊天记录完整教程"
-description: "Signal 聊天记录备份与恢复完整教程：详细介绍 Android 本地加密备份、iOS iCloud 备份的方法，以及如何在新设备上恢复备份、备份文件的位置和管理技巧。"
+description: "Signal聊天记录完整备份与恢复操作教程，详细讲解Android设备本地加密备份文件导出方法、iOS设备iCloud云端备份设置流程，以及在新手机或新设备上完整恢复聊天记录的全步骤操作指南，同时涵盖备份文件存储位置查找和常见备份恢复故障的排除方法。"
 date: 2026-04-26
 images: ["/images/guides/backup/cover.jpg"]
 slug: "backup"

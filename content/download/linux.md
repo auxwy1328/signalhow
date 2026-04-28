@@ -1,6 +1,6 @@
 ---
 title: "Signal Linux 下载"
-description: "Signal Linux 桌面版安装配置教程，详细覆盖 Debian/Ubuntu、Fedora、Arch Linux 等主流发行版，提供 APT、DNF、Pacman 等包管理器和 Snap 两种安装方式。"
+description: "Signal Linux桌面客户端完整安装教程，详细介绍在Debian、Ubuntu、Fedora、CentOS及Arch Linux等主流发行版上的安装方法，提供APT包管理器命令行安装、官方软件源配置、DNF和Pacman安装等多种方式，同时包含Snap包及直接安装包的替代安装方案。"
 date: 2026-04-05
 slug: "linux"
 tags: ["Signal", "Linux", "桌面版"]
