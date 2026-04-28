@@ -1,6 +1,6 @@
 ---
 title: "Signal 和 Threema 怎么选？"
-description: "Signal 与 Threema 加密通讯应用详细对比：从匿名注册机制、付费商业模式、加密安全技术和瑞士数据隐私法保护等核心维度帮助你选择最适合的加密通讯工具。"
+description: "Signal与Threema即时通讯应用安全对比评测，涵盖匿名注册方式差异、开源代码透明度对比、加密协议安全性分析、服务器地域分布与数据隐私政策、付费模式对隐私的影响等关键维度，为注重个人数据安全的用户提供全面客观的分析参考，助你选择最合适的日常安全通讯工具。"
 date: 2026-04-13
 slug: "signal-vs-threema"
 section: compare

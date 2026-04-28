@@ -1,6 +1,6 @@
 ---
 title: "Signal 加密原理详解：Signal Protocol 技术解析"
-description: "深入解析 Signal Protocol 加密协议的技术原理：双棘轮密钥交换、前向保密、密封发件人、AXolotl 协议等核心加密机制，帮助你理解为什么 Signal 是目前最安全的通讯应用。"
+description: "Signal Protocol端到端加密协议核心技术原理深入解析，详细讲解双棘轮密钥交换机制、前向保密安全保障、密钥外发签名验证和Axolotl密钥协商协议，同时解读密封发件人功能和群组加密的实现方案，帮助你全面理解为什么Signal被公认为目前最安全的即时通讯应用。"
 date: 2026-04-26
 images: ["/images/safety/encryption/cover.jpg"]
 slug: "encryption"
