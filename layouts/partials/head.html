@@ -3,6 +3,7 @@
 {{- $desc := .Description | default .Site.Params.Description }}
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ $desc }}">
+<meta name="keywords" content="Signal下载,Signal注册,Signal教程,Signal安全吗,Signal中文,Signal加密,端到端加密">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta name="robots" content="{{ cond .IsHome "index, follow" "index, follow" }}">
 <meta name="googlebot" content="index, follow">
