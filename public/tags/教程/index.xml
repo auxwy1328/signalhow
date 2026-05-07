@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 隐私设置完全指南：9 个必须开启的安全选项</title><link>https://signalhow.com/guides/privacy-settings/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/privacy-settings/</guid><description>&lt;p&gt;很多人下载 Signal 后直接开始聊天，从来没有碰过设置页面。这就像买了一辆安全性能顶级的汽车，却从来不锁车门——工具再好，设置不对也白搭。&lt;/p&gt;
+&lt;p&gt;这篇文章会带你把 Signal 的 9 个关键隐私设置全部开启。每个设置我都会解释&amp;quot;为什么重要&amp;quot;和&amp;quot;怎么开&amp;quot;，不会只给你步骤列表。&lt;/p&gt;
+&lt;h2 id="1-消失消息让聊天记录自动销毁"&gt;1. 消失消息：让聊天记录自动销毁&lt;/h2&gt;
+&lt;p&gt;这是 Signal 最实用的隐私功能，也是很多人不知道的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;什么是消失消息？&lt;/strong&gt; 你可以设置一个时间（从 1 秒到 4 周），消息在这个时间后会在双方设备上自动删除。不是&amp;quot;标记为已删除&amp;quot;，是真的从设备上抹掉。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么重要：&lt;/strong&gt; 即使你的手机被别人拿到、丢失、或者被没收，这些消失消息也不会泄露。Signal 官方在 2023 年发布过一份安全白皮书，明确指出消失消息可以保护用户在&amp;quot;威胁模型升级&amp;quot;场景下的安全。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;怎么开：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开和对方的聊天 → 点击右上角&amp;quot;⋯&amp;quot; → 开启&amp;quot;消失消息&amp;quot; → 选择时间&lt;/li&gt;
+&lt;li&gt;全局设置：Signal 设置 → 隐私 → 默认消失消息计时器 → 选择全局默认时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;建议：&lt;/strong&gt; 日常聊天设置 1 周，敏感对话设置 1 天或 1 小时。不建议设成&amp;quot;关&amp;quot;，因为就算你不设置，聊天记录也存在你手机上。&lt;/p&gt;
+&lt;h2 id="2-屏幕安全锁防止别人偷看"&gt;2. 屏幕安全锁：防止别人偷看&lt;/h2&gt;
+&lt;p&gt;你有没有过这种经历：手机放在桌上，有人趁你不注意翻看你的微信？Signal 的屏幕安全锁可以防止这种情况。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;开启后：&lt;/strong&gt; 每次打开 Signal 都需要输入 PIN 码或用指纹/面容解锁。即使手机已经解锁，打开 Signal 还是需要二次验证。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;怎么开：&lt;/strong&gt; Signal 设置 → 隐私 → 屏幕锁 → 开启 → 设置 PIN 码&lt;/p&gt;</description></item></channel></rss>
