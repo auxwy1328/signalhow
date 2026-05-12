@@ -29,6 +29,8 @@ enableGitInfo = true
   ogImage = '/images/og-default.png'
   signalVersion = '7.16.0'
   author = 'SignalHow 编辑部'
+  description = 'Signal 使用教程、安全分析、多平台下载。最全面的 Signal 中文资源站，涵盖注册、设置、对比评测、常见问题解答。'
+  keywords = 'Signal下载,Signal教程,Signal中文,加密聊天,Signal注册,Signal安全,Signal对比'
   [params.nav]
     items = [
       { name = '下载', url = '/download/' },
