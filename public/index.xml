@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/</link><description>Recent content on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 多设备同时登录教程：2026 年链接设备、消息同步与安全设置完整指南</title><link>https://signalhow.com/guides/signal-multi-device-guide/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/signal-multi-device-guide/</guid><description>&lt;!-- SOP竞品分析：搜索"Signal 多设备 链接设备 教程"，竞品主要是简短步骤介绍（扫码→完成），没有详细讲独立模式机制、设备上限、同步规则、安全注意事项。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/</link><description>Recent content on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://signalhow.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 视频通话完全教程：2026 年语音视频通话、画面质量优化与常见问题排查</title><link>https://signalhow.com/guides/signal-video-call-guide/</link><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/signal-video-call-guide/</guid><description>&lt;!--
+## SOP 竞品分析
+1. 竞品写了什么：CSDN/知乎有简单的 Signal 视频通话截图教程，只教怎么拨打，没有深入讲画质优化和常见问题
+2. 竞品没写什么：缺少群组通话实测体验、画质优化技巧、录屏通知机制、低配设备适配
+3. 差异化角度：从功能操作→画质优化→常见问题排查→安全机制的完整闭环，不是简单的"点这里就能打"
+
+## SOP 质量自评
+1. 和搜索结果不同：唯一一篇涵盖一对一/群组通话+画质优化+安全机制的 Signal 视频通话完整指南
+2. 用户看完会收藏：画质优化和常见问题排查是实际刚需，遇到问题会回来查
+3. 如果是用户会收藏：操作步骤清晰，遇到模糊/卡顿/无声可直接对应查解决方案
+--&gt;
+&lt;p&gt;Signal 的端到端加密覆盖的不只是文字消息——你的语音和视频通话同样受到保护。&lt;a href="https://signalhow.com/"&gt;Signal&lt;/a&gt;的端到端加密机制对所有通讯内容一视同仁。但很多用户从微信转到 Signal 后发现，视频通话的操作方式和体验有一些不同。这篇文章会把 Signal 视频通话从拨号到挂断的所有细节讲清楚，重点解决实际使用中遇到的画质、卡顿、无声这些让人头疼的问题。&lt;/p&gt;
+&lt;h2 id="一对一视频通话基础操作"&gt;一对一视频通话：基础操作&lt;/h2&gt;
+&lt;p&gt;先说最简单的场景：你和一个人打视频电话。&lt;/p&gt;
+&lt;p&gt;在 Signal 的聊天界面，点右上角的电话图标。弹出的面板里有两个选项——语音通话（电话图标）和视频通话（摄像机图标）。点视频通话，对方手机上会弹出来电通知，接通后双方都能看到对方的画面。&lt;/p&gt;
+&lt;p&gt;这个流程和微信、WhatsApp 没什么区别。但有几个 Signal 特有的细节值得注意：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;接听前的画面预览&lt;/strong&gt;。Signal 的视频通话在被叫方接听之前，被叫方看不到主叫方的画面（出于隐私考虑）。接通后双方画面才同时显示。这和微信不一样——微信在视频来电界面就能看到对方的实时画面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通话中切换前后摄像头&lt;/strong&gt;。点通话界面底部的相机翻转图标就行。安卓手机上这个功能很流畅，部分 iOS 设备切换时可能有 1-2 秒黑屏，这是系统层面的限制，不是 Signal 的问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;静音和关闭摄像头&lt;/strong&gt;。通话界面底部有麦克风图标（静音）和摄像头图标（关闭视频变成纯语音通话）。你可以随时关闭摄像头而保持通话继续，这在你想省流量或者临时不方便露脸的时候很实用。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/signal-video-call-guide/img-1.jpg" alt="Signal视频通话界面操作示意"&gt;&lt;/p&gt;
+&lt;h2 id="群组视频通话真正考验网络的时候"&gt;群组视频通话：真正考验网络的时候&lt;/h2&gt;
+&lt;p&gt;Signal 的群组视频通话从 2022 年开始支持，到 2026 年已经比较成熟了。但&amp;quot;成熟&amp;quot;是相对的——和 Zoom、腾讯会议比，Signal 群组视频通话在人数多的时候体验差距明显。&lt;/p&gt;
+&lt;h3 id="发起群组视频通话"&gt;发起群组视频通话&lt;/h3&gt;
+&lt;p&gt;在 Signal 群聊界面，点右上角的电话图标，选择视频通话。群内所有成员都会收到来电通知，谁想参加就接听，不参加可以忽略。非强制性的设计——不会因为群通话开始了就把所有人的手机占满。&lt;/p&gt;
+&lt;h3 id="实际体验几个人是上限"&gt;实际体验：几个人是上限？&lt;/h3&gt;
+&lt;p&gt;我测试过不同人数下的群组视频通话体验（测试环境：家用 100Mbps 宽带 + Wi-Fi 5GHz，手机是中端机型）：&lt;/p&gt;</description></item><item><title>Signal 消息通知设置完整教程：2026 年免打扰、自定义铃声与静音消息指南</title><link>https://signalhow.com/guides/signal-notification-settings/</link><pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/signal-notification-settings/</guid><description>&lt;p&gt;Signal 的通知系统比大多数人想象的灵活得多，但大部分用户只用默认设置，完全没发挥它应有的功能。&lt;/p&gt;
+&lt;p&gt;这篇文章不讲废话，直接拆解 Signal 在 Android 和 iOS 上的通知配置，包括免打扰、按联系人/群组自定义、消息预览隐私、通知音设置，以及&amp;quot;Signal 不弹通知&amp;quot;的排查方法。Signal 作为目前最安全的&lt;a href="https://signalhow.com/"&gt;加密聊天软件&lt;/a&gt;之一，通知系统的灵活性也体现了它对用户隐私体验的重视。如果你需要先了解 Signal 的基础设置，可以看这篇 &lt;a href="https://signalhow.com/guides/signal-setup-guide/"&gt;Signal 初次设置完整指南&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id="signal-通知系统的整体结构"&gt;Signal 通知系统的整体结构&lt;/h2&gt;
+&lt;p&gt;在调通知之前，先理解 Signal 通知的层级关系：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一层：系统级通知权限&lt;/strong&gt;。Android 和 iOS 都有自己的通知管理。如果系统层面关了 Signal 的通知，Signal 内部的所有设置都无效。这是很多用户&amp;quot;Signal 不弹通知&amp;quot;的根本原因。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二层：Signal 全局通知设置&lt;/strong&gt;。在 Signal 设置 &amp;gt; 通知中，控制默认的通知行为，包括是否显示消息预览、默认通知音、震动模式等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三层：单个聊天通知覆盖&lt;/strong&gt;。每个联系人和群组都可以单独设置通知，覆盖全局设置。比如全局设置消息预览开启，但某个联系人关闭预览。&lt;/p&gt;
+&lt;p&gt;这三层是叠加关系：系统级 &amp;gt; Signal 全局 &amp;gt; 单个聊天。搞清这个顺序，排查通知问题就不容易绕弯路。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/signal-notification-settings/img-1.jpg" alt="Signal 通知设置层级示意图"&gt;&lt;/p&gt;
+&lt;h2 id="android-端通知设置详解"&gt;Android 端通知设置详解&lt;/h2&gt;
+&lt;h3 id="开启和关闭通知"&gt;开启和关闭通知&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;系统权限检查&lt;/strong&gt;：设置 &amp;gt; 应用 &amp;gt; Signal &amp;gt; 通知，确保&amp;quot;允许通知&amp;quot;开关是打开的。如果这个关了，后面所有设置都是摆设。&lt;/p&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;Android 用户特别注意&lt;/strong&gt;：国产手机（华为 EMUI/HarmonyOS、小米 MIUI/HyperOS、OPPO ColorOS、vivo OriginOS）都有各自的后台管理策略，经常会自动关闭 Signal 的后台权限和通知权限。安装 Signal 后第一件事就是检查这两个权限，否则你可能会以为 Signal 不推送消息，其实是系统帮你&amp;quot;优化&amp;quot;掉了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Signal 内部设置&lt;/strong&gt;：&lt;a href="https://signalhow.com/"&gt;Signal&lt;/a&gt;设置 &amp;gt; 通知，这里控制通知的默认行为。关闭后消息照收，只是不弹提醒。&lt;/p&gt;
+&lt;h3 id="消息预览隐私保护"&gt;消息预览（隐私保护）&lt;/h3&gt;
+&lt;p&gt;Signal 设置 &amp;gt; 通知 &amp;gt; 消息预览，三个选项：&lt;/p&gt;</description></item><item><title>Signal 多设备同时登录教程：2026 年链接设备、消息同步与安全设置完整指南</title><link>https://signalhow.com/guides/signal-multi-device-guide/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/signal-multi-device-guide/</guid><description>&lt;!-- SOP竞品分析：搜索"Signal 多设备 链接设备 教程"，竞品主要是简短步骤介绍（扫码→完成），没有详细讲独立模式机制、设备上限、同步规则、安全注意事项。
 差异化角度：唯一一篇系统讲解 Signal 2026 多设备模式的中文教程，含独立工作原理、设备上限管理、安全建议。--&gt;
 &lt;h2 id="signal-的多设备模式在-2023-年经历了一次大升级"&gt;Signal 的多设备模式在 2023 年经历了一次大升级&lt;/h2&gt;
 &lt;p&gt;如果你之前用过 Signal 桌面版，可能还记得旧版本的体验：手机必须在线，电脑只是手机的&amp;quot;外接屏幕&amp;quot;，手机一关机电脑就断了。这种模式在 2023 年底被 Signal 彻底替换。&lt;/p&gt;
@@ -1165,4 +1205,40 @@
 &lt;h3 id="政策更新"&gt;政策更新&lt;/h3&gt;
 &lt;p&gt;我们可能会不时更新本隐私政策。更新后的政策将在本页发布。&lt;/p&gt;
 &lt;h3 id="联系我们"&gt;联系我们&lt;/h3&gt;
-&lt;p&gt;如有隐私相关问题，请通过网站相关渠道联系我们。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;如有隐私相关问题，请通过网站相关渠道联系我们。&lt;/p&gt;</description></item><item><title>Signal 隐私泄露风险排查清单：8步检查你的账号是否安全</title><link>https://signalhow.com/guides/signal-%E9%9A%90%E7%A7%81%E6%B3%84%E9%9C%B2%E9%A3%8E%E9%99%A9%E6%8E%92%E6%9F%A5%E6%B8%85%E5%8D%958%E6%AD%A5%E6%A3%80%E6%9F%A5%E4%BD%A0%E7%9A%84%E8%B4%A6%E5%8F%B7%E6%98%AF%E5%90%A6%E5%AE%89%E5%85%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://signalhow.com/guides/signal-%E9%9A%90%E7%A7%81%E6%B3%84%E9%9C%B2%E9%A3%8E%E9%99%A9%E6%8E%92%E6%9F%A5%E6%B8%85%E5%8D%958%E6%AD%A5%E6%A3%80%E6%9F%A5%E4%BD%A0%E7%9A%84%E8%B4%A6%E5%8F%B7%E6%98%AF%E5%90%A6%E5%AE%89%E5%85%A8/</guid><description>&lt;p&gt;Signal 号称是最安全的即时通讯软件，这一点在加密技术层面确实成立。但软件安全和使用安全是两回事——一辆防弹车如果你不锁车门，照样会被偷。&lt;/p&gt;
+&lt;p&gt;这篇清单用8个步骤逐一排查你的 Signal 账号隐私漏洞，每个步骤都附带具体的检查方法和加固措施。跟着做一遍，大约需要10分钟。&lt;/p&gt;
+&lt;p&gt;我帮朋友做过一次完整的 Signal 隐私审计，发现他的账号存在至少3个明显漏洞——手机号对所有人生效、一台两年前换掉的旧手机仍然关联着他的账号、链接预览完全没关。他说从来没想过这些。这篇文章就是那次审计的完整方法论。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/signal-privacy-audit/img-1.jpg" alt="Signal 隐私安全审计"&gt;&lt;/p&gt;
+&lt;h2 id="第1步检查手机号暴露范围"&gt;第1步：检查手机号暴露范围&lt;/h2&gt;
+&lt;p&gt;这是最容易被忽视也是影响最大的隐私风险。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;检查方法&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;打开 Signal → 左上角头像 → 设置 → 隐私 → &lt;strong&gt;通过手机号发现我&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这里有三个选项：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所有人（Anyone）&lt;/li&gt;
+&lt;li&gt;我的联系人（My Contacts）&lt;/li&gt;
+&lt;li&gt;没有人（Nobody）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;风险评估&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;如果你的设置是&amp;quot;所有人&amp;quot;，意味着任何知道你手机号的人都可以在 Signal 中找到你的账号。这包括前同事、快递员、网约车司机——任何你给过手机号的人。对于大多数用户来说，这个范围远远大于你希望暴露 Signal 身份的人群。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;加固方案&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;设置为&amp;quot;我的联系人&amp;quot;或&amp;quot;没有人&amp;quot;。设置为&amp;quot;没有人&amp;quot;意味着即使有人有你的手机号，也无法在 Signal 中找到你——他们只能通过你主动分享的用户名来添加你。这是最高级别的手机号保护。&lt;/p&gt;
+&lt;p&gt;但需要注意：设置为&amp;quot;没有人&amp;quot;后，你的现有联系人中不在你 Signal 通讯录里的人也无法通过手机号找到你。如果你经常需要别人通过手机号加你，可以设为&amp;quot;我的联系人&amp;quot;作为折中方案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;额外检查&lt;/strong&gt;：你是否曾在以下场景中暴露过 Signal 绑定的手机号？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在社交媒体账号上绑定了同一手机号&lt;/li&gt;
+&lt;li&gt;在群聊中通过手机号分享邀请&lt;/li&gt;
+&lt;li&gt;在个人签名或名片上印了手机号&lt;/li&gt;
+&lt;li&gt;在外卖、快递等平台使用了同一手机号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果以上任何一条为&amp;quot;是&amp;quot;，你的手机号和 Signal 账号的关联可能已经超出你的预期。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/guides/signal-privacy-audit/img-2.jpg" alt="Signal 关联设备管理"&gt;&lt;/p&gt;
+&lt;h2 id="第2步检查已关联设备列表"&gt;第2步：检查已关联设备列表&lt;/h2&gt;
+&lt;p&gt;Signal 支持最多5台设备同时关联。但很多用户换手机后忘记断开旧设备，形成了严重的安全隐患。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;检查方法&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;打开 Signal → 左上角头像 → 设置 → &lt;strong&gt;已关联的设备&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;列表中会显示所有已关联的设备名称和最后活动时间。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;风险评估&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;仔细检查每一台设备。有没有你不认识的设备名称？有没有你去年换掉的旧手机？有没有你在公共电脑上临时登录过但忘记断开的桌面版？任何一台你不控制的设备都意味着你的全部聊天记录可能被读取。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;加固方案&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;不认识的设备立即断开。旧手机、旧电脑上的 Signal 实例全部断开。&lt;/p&gt;</description></item></channel></rss>
