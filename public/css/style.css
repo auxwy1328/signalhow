@@ -393,6 +393,13 @@
     height: 120px;
     font-size: 2.2rem;
     border-radius: var(--radius-sm);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .update-card.featured .update-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .update-card.featured .update-content h4 {
     font-size: 1.15rem;
@@ -422,6 +429,16 @@
     align-items: center;
     justify-content: center;
     font-size: 1.6rem;
+    overflow: hidden;
+  }
+  .update-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .update-thumb-emoji {
+    font-size: 1.6rem;
+    line-height: 1;
   }
   .update-content { flex: 1; min-width: 0; }
   .update-meta {
@@ -481,7 +498,7 @@
   /* ===== GUIDE CARDS ===== */
   .guides-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   .guide-card {
@@ -524,6 +541,18 @@
     justify-content: center;
     margin-bottom: 16px;
     font-size: 1.2rem;
+  }
+  .guide-card-img {
+    width: calc(100% + 56px);
+    height: 160px;
+    margin: -28px -28px 16px -28px;
+    overflow: hidden;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .guide-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .icon-blue { background: rgba(58, 118, 240, 0.15); color: var(--signal-blue); }
   .icon-green { background: rgba(34, 197, 94, 0.15); color: var(--green); }

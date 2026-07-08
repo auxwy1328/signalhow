@@ -1,11 +1,13 @@
 ---
 title: "Signal 隐私泄露风险排查清单：8步检查你的账号是否安全"
+date: 2026-05-31
 description: "Signal隐私安全自检清单，一步步教你检查Signal账号的隐私设置漏洞：手机号暴露风险、设备安全、链接预览、已读回执等8项关键隐私设置检查，附加固方案和常见误区纠正。"
 keywords: "Signal隐私设置，Signal安全检查，Signal账号安全，Signal手机号暴露，Signal隐私泄露，Signal安全加固"
 tag: "隐私"
 excerpt: "Signal隐私泄露风险排查清单，8步检查你的账号是否真的安全"
 cover: "/images/guides/signal-privacy-audit/cover.jpg"
 images: ["/images/guides/signal-privacy-audit/cover.jpg"]
+slug: "signal-privacy-audit"
 faq:
   - q: "Signal 已经是最安全的聊天软件了，还需要排查隐私风险吗？"
     a: "需要。Signal的加密技术确实业界领先，但加密只保护传输过程。如果你的手机号对所有人可见、你的旧设备没有断开关联、你开启了链接预览导致网站能追踪你的阅读行为——这些都是加密之外的隐私风险。软件安全不等于使用安全。"
@@ -82,7 +84,7 @@ Signal 支持最多5台设备同时关联。但很多用户换手机后忘记断
 
 断开后，该设备上的所有本地数据会被清除。但要注意：如果对方已经屏幕截图或拍照记录了聊天内容，断开设备关联并不能删除对方已经复制的数据。但至少对方无法再读取你的新消息，也无法向其他人发送伪造的消息。如果需要重新关联，需要重新扫码验证。
 
-**建议频率**：每月检查一次已关联设备列表。这是 Signal 最基础也最重要的安全维护操作。[Signal 桌面版关联手机教程](/guides/desktop-linking.md) 有详细的关联操作说明。
+**建议频率**：每月检查一次已关联设备列表。这是 Signal 最基础也最重要的安全维护操作。[Signal 桌面版关联手机教程](/guides/desktop-link/) 有详细的关联操作说明。
 
 ![Signal 链接预览设置](/images/guides/signal-privacy-audit/img-3.jpg)
 
@@ -156,7 +158,7 @@ Disappearing messages（消失消息）是 Signal 的核心隐私功能，但很
 - 新建聊天时养成第一时间设置消失消息的习惯
 - 在 Signal 设置中可以设置"新聊天默认计时器"（Signal → 设置 → 隐私 → 默认消失消息计时器）
 
-[Signal 阅后即焚设置教程](/guides/disappearing-messages.md) 有更详细的配置说明。
+[Signal 阅后即焚设置教程](/guides/disappearing-messages/) 有更详细的配置说明。
 
 ![Signal 安全号码验证界面](/images/guides/signal-privacy-audit/img-4.jpg)
 
@@ -182,7 +184,7 @@ Signal 的安全号码（safety number）是端到端加密的验证机制，可
 - 如果安全号码发生变化（你或对方更换了设备），Signal 会提示你重新验证
 - 不要忽略安全号码变更通知——这可能是中间人攻击的信号
 
-[Signal 安全号码验证教程](/guides/safety-number.md) 有详细的验证步骤说明。
+[Signal 安全号码验证教程](/guides/safety-number/) 有详细的验证步骤说明。
 
 ## 第7步：检查注册锁和 PIN 码
 
@@ -203,7 +205,7 @@ Signal 的安全号码（safety number）是端到端加密的验证机制，可
 
 启用注册锁并设置强PIN码。PIN码应该是你不常用但能记住的4-8位数字。避免使用出生年月、手机尾号、银行卡密码等容易被猜测的组合。好的PIN码应该是你能记住但别人不容易关联到你的信息——比如你小时候的家庭电话号码的后4位、你第一次用的密码的前4位、或者一个对你有特殊意义但别人不知道的数字。如果忘记PIN码，必须等待7天的冷却期才能重设，所以务必记住。不要使用出生年月、手机尾号、银行卡密码等容易被猜测的组合。
 
-[Signal PIN码与注册锁设置教程](/guides/signal-pin-registration-lock.md) 有完整的配置说明。
+[Signal PIN码与注册锁设置教程](/guides/signal-pin-registration-lock/) 有完整的配置说明。
 
 ## 第8步：检查本地存储安全
 
@@ -250,7 +252,7 @@ Signal 从2024年开始提供了加密云端备份功能，但需要手动启用
 - 定期清理旧的备份文件——Signal 可能保留了多个时间点的备份
 - 如果你曾经在没有加密的情况下备份过，删除那些旧备份文件再创建加密备份
 
-[Signal 备份聊天记录完整教程](/guides/backup.md) 有详细的备份配置说明。
+[Signal 备份聊天记录完整教程](/guides/backup/) 有详细的备份配置说明。
 
 ## 第10步（附加）：检查群组隐私
 
@@ -271,7 +273,7 @@ Signal 群组是隐私泄露的高风险场景。群组中的每个成员都能�
 - 避免在群组名称中使用可识别的个人或组织信息
 - 定期审查你加入的群组列表，退出不再活跃的群组
 
-[Signal 群组功能完整教程](/guides/group-chat.md) 有详细的群组管理说明。
+[Signal 群组功能完整教程](/guides/group-chat/) 有详细的群组管理说明。
 
 ## 隐私等级自评
 
@@ -292,4 +294,4 @@ Signal 群组是隐私泄露的高风险场景。群组中的每个成员都能�
 
 **"不用手机号注册就匿名了"** — Signal 用户名确实让你不需要暴露手机号就能添加好友，但 Signal 仍然知道你的手机号（注册时绑定的），如果你在同一个网络环境中同时使用 Signal 和其他服务，流量分析仍然可能关联你的身份。
 
-如果你对 [Signal 安全性](/)的加密原理感兴趣，可以查看 [Signal 加密原理详解](/safety/encryption.md)。更多 Signal 安全相关教程，可以在本站 [Signal 使用指南](/) 查看完整列表。
+如果你对 [Signal 安全性](/)的加密原理感兴趣，可以查看 [Signal 加密原理详解](/safety/encryption/)。更多 Signal 安全相关教程，可以在本站 [Signal 使用指南](/) 查看完整列表。

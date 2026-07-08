@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使用技巧 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/categories/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><description>Recent content in 使用技巧 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 02 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://signalhow.com/categories/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 存储空间太大？我实测清理前后对比，从 15.6GB 减到 2.1GB（2026）</title><link>https://signalhow.com/tips/signal-storage-cleanup-guide/</link><pubDate>Thu, 02 Jul 2026 10:00:00 +0800</pubDate><guid>https://signalhow.com/tips/signal-storage-cleanup-guide/</guid><description>&lt;p&gt;你的手机突然弹出&amp;quot;存储空间不足&amp;quot;。&lt;/p&gt;
+&lt;p&gt;打开设置一看，Signal 占了 15.6GB。微信也才 8GB。&lt;/p&gt;
+&lt;p&gt;不是 Signal 偷跑什么后台任务。问题出在一个默认设置上——Signal 出厂状态会&lt;strong&gt;自动下载你收到的每一张图片、每一个视频&lt;/strong&gt;，包括群里 50 个人发的表情包和短视频。&lt;/p&gt;
+&lt;p&gt;这篇文章用我自己的手机实测数据，告诉你哪些占用最大、怎么清、清完还能不能看以前的东西。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/tips/signal-storage-cleanup-guide/cover.webp" alt="Signal 存储空间清理前后对比"&gt;&lt;/p&gt;
+&lt;h2 id="先别乱删搞清楚-156gb-里都是什么"&gt;先别乱删：搞清楚 15.6GB 里都是什么&lt;/h2&gt;
+&lt;p&gt;我在&amp;quot;设置→数据与存储→管理存储&amp;quot;里截图记录了清理前的数据分布。这不是编的，是我自己主力机上的真实数据：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;聊天记录（纯文字+缩略图）&lt;/strong&gt;：1.2GB —— 这是 Signal 数据库本体，包含所有文字消息的加密数据和一些低分辨率缩略图&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动下载的图片&lt;/strong&gt;：6.8GB —— 最大的元凶。主要是群组里别人发的原图，Signal 默认自动保存&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动下载的视频&lt;/strong&gt;：5.3GB —— 一个 30 秒的群组视频就 40-80MB，50 个就是 3GB&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音频消息/语音通话录音&lt;/strong&gt;：0.9GB —— 语音消息自动保存，但占比较小&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缓存文件&lt;/strong&gt;：1.1GB —— 包括贴纸缓存、头像缓存、已发送文件的临时副本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;：0.3GB —— 包括已发送的文档、位置数据等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;说实话，真正有价值的只有 1.2GB 的文字聊天记录。剩下的 14GB 中，至少 12GB 是你从来没主动打开看过第二遍的群组媒体。&lt;/p&gt;
+&lt;h2 id="第一步关掉自动下载堵住进水口"&gt;第一步：关掉自动下载——堵住进水口&lt;/h2&gt;
+&lt;p&gt;清理之前先关水龙头。否则你清了 10GB，三天后它又回来了。&lt;/p&gt;
+&lt;p&gt;路径：Signal App → 点击头像 → &lt;strong&gt;数据与存储&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这里面有三个开关，很多人只关了一个：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;使用移动数据时自动下载媒体&amp;rdquo;&lt;/strong&gt; —— 关掉。这是最大的进水源，群组里每个人发的图和视频都会自动拖进你手机&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;使用 Wi-Fi 时自动下载媒体&amp;rdquo;&lt;/strong&gt; —— 关掉。很多人以为关了 4G 就行了，结果回家连上 WiFi 又默默下了一堆&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;漫游时自动下载媒体&amp;rdquo;&lt;/strong&gt; —— 本来就该关，但建议顺手确认一下&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;三个开关全关之后，别人发你的图片视频会显示一个占位缩略图 + 下载按钮。你想看哪张点哪张。这个操作增加的麻烦几乎为零，但省下的空间是实打实的。&lt;/p&gt;</description></item><item><title>Signal 账号注销与数据彻底清除指南：怎样确保不留任何痕迹（2026完整版）</title><link>https://signalhow.com/tips/signal-delete-account-data/</link><pubDate>Mon, 15 Jun 2026 10:00:00 +0800</pubDate><guid>https://signalhow.com/tips/signal-delete-account-data/</guid><description>&lt;!--
+SOP 竞品分析:
+1. 竞品写了什么？搜索结果第一篇是 Signal 官方支持页面（英文），中文内容大多只提"怎么注销"一句话，没有完整流程
+2. 竞品没写什么？注销前要做什么准备、注册锁的影响、注销后对方看到什么、数据残留问题——全都没人写
+3. 差异化角度：不是"点这个按钮注销"，而是"注销前→注销中→注销后"的全流程决策指南，覆盖隐私用户真正关心的"有没有痕迹"
+--&gt;
+&lt;h2 id="先说结论卸载-app--注销账号两步都要做才算离开"&gt;先说结论：卸载 App ≠ 注销账号，两步都要做才算&amp;quot;离开&amp;quot;&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/tips/signal-delete-account-data/cover.jpg" alt="Signal 账号注销与数据清除完整指南封面"&gt;&lt;/p&gt;
+&lt;p&gt;很多人以为把 Signal 从手机删了就完事了。不是。&lt;/p&gt;
+&lt;p&gt;Signal 的账号系统是这样工作的：你的手机号在 Signal 服务器上注册了一个&amp;quot;存在记录&amp;quot;——不包含聊天记录（Signal 没有聊天记录服务器），但包含&amp;quot;这个手机号是一个活跃 Signal 用户&amp;quot;这个事实。&lt;/p&gt;
+&lt;p&gt;卸载 App → 你的聊天记录从手机本地删除 ✅ → 但你的手机号依然在 Signal 的注册名单里 ❌&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;真正离开 Signal 需要两步：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 App 里&lt;strong&gt;注销账号&lt;/strong&gt;（删除服务器上的注册记录）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;卸载 App&lt;/strong&gt;（删除手机上的本地数据）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;顺序不能反——先卸载 App 就没法注销了，只能用 Signal 网页端的注销工具（后面会讲）。&lt;/p&gt;
+&lt;h2 id="注销前必须做的-4-件事"&gt;注销前必须做的 4 件事&lt;/h2&gt;
+&lt;p&gt;很多人急着注销，点了就跑。但有几件事做了比不做好。&lt;/p&gt;
+&lt;h3 id="1-关闭注册锁registration-lock"&gt;1. 关闭注册锁（Registration Lock）&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;这个是最大的坑。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Signal PIN 和注册锁是什么关系？简单说：PIN 是加密密钥的保护密码，注册锁是&amp;quot;重新注册这个手机号需要 PIN&amp;quot;的开关。如果你开着注册锁就注销了，7 天内想重新注册会被要求输入 PIN。忘了 PIN？那就等 7 天。&lt;/p&gt;
+&lt;p&gt;关闭路径：&lt;strong&gt;设置 → 账号 → 注册锁 → 关闭&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

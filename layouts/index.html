@@ -75,7 +75,13 @@
     {{- range $i, $p := $latest }}
     {{- $isFeatured := eq $i 0 }}
     <a class="update-card{{ if $isFeatured }} featured update-new{{ end }}" href="{{ $p.Permalink }}">
-      <div class="update-thumb">{{ with $p.Params.emoji }}{{ . }}{{ else }}&#128196;{{ end }}</div>
+      <div class="update-thumb">
+        {{- with $p.Params.images }}
+        <img src="{{ index . 0 }}" alt="{{ $p.Title }}" loading="lazy">
+        {{- else }}
+        <span class="update-thumb-emoji">{{ with $p.Params.emoji }}{{ . }}{{ else }}&#128196;{{ end }}</span>
+        {{- end }}
+      </div>
       <div class="update-content">
         <div class="update-meta">
           <span class="update-tag {{ with $p.Params.tagClass }}{{ . }}{{ else }}tag-update{{ end }}">{{ with $p.Params.category }}{{ . }}{{ else }}文章{{ end }}</span>
@@ -91,7 +97,7 @@
 {{- end }}
 
 <!-- GUIDES -->
-{{- $guides := where .Site.RegularPages "Section" "guides" }}
+{{- $guides := first 12 (sort (where .Site.RegularPages "Section" "guides") "Date" "desc") }}
 {{- if $guides }}
 <section class="section section-wide" id="guides">
   <div class="section-header">
@@ -102,7 +108,11 @@
   <div class="guides-grid">
     {{- range $guides }}
     <a class="guide-card" href="{{ .Permalink }}">
+      {{- if .Params.images }}
+      <div class="guide-card-img"><img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy"></div>
+      {{- else }}
       <div class="guide-card-icon {{ with .Params.iconClass }}{{ . }}{{ else }}icon-blue{{ end }}">{{ with .Params.emoji }}{{ . }}{{ else }}&#128214;{{ end }}</div>
+      {{- end }}
       <h3>{{ .Title }}</h3>
       <p>{{ .Description }}</p>
       <div class="guide-card-footer">阅读教程 &rarr;</div>

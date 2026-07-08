@@ -107,7 +107,7 @@ Signal 的设备上限规则如下：
 - **已设置的 Disappearing Messages 计时器不会同步**：每台设备需要单独设置。
 - **已置顶的对话、标记为未读等状态不会同步**。
 
-如果你需要在新设备上看历史消息，只能在旧设备上先备份，然后在新设备上恢复。具体操作参考 [Signal 备份聊天记录完整教程](/guides/signal-backup-chat-history/)。
+如果你需要在新设备上看历史消息，只能在旧设备上先备份，然后在新设备上恢复。具体操作参考 [Signal 备份聊天记录完整教程](/guides/backup/)。
 
 ## 取消链接设备
 
@@ -176,4 +176,4 @@ Signal 网页版（signal.org）不需要安装，在浏览器中直接使用。
 
 Signal 的多设备模式是 2023 年最重要的更新之一，让 Signal 的跨设备体验从"能用"变成了"好用"。如果你之前因为"手机必须在线"的旧模式放弃过 Signal 桌面版，现在值得再试一次。[Signal 教程](/)栏目里有更多使用技巧。
 
-其他 Signal 教程：[Signal 注册教程](/guides/signal-registration/) | [Signal 隐私设置完全指南](/guides/signal-privacy-settings/) | [Signal 阅后即焚设置教程](/guides/signal-disappearing-messages/)
+其他 Signal 教程：[Signal 注册教程](/guides/registration/) | [Signal 隐私设置完全指南](/guides/privacy-settings/) | [Signal 阅后即焚设置教程](/guides/disappearing-messages/)

@@ -23,7 +23,7 @@ faq:
 
 Signal 的通知系统比大多数人想象的灵活得多，但大部分用户只用默认设置，完全没发挥它应有的功能。
 
-这篇文章不讲废话，直接拆解 Signal 在 Android 和 iOS 上的通知配置，包括免打扰、按联系人/群组自定义、消息预览隐私、通知音设置，以及"Signal 不弹通知"的排查方法。Signal 作为目前最安全的[加密聊天软件](/)之一，通知系统的灵活性也体现了它对用户隐私体验的重视。如果你需要先了解 Signal 的基础设置，可以看这篇 [Signal 初次设置完整指南](/guides/signal-setup-guide/)。
+这篇文章不讲废话，直接拆解 Signal 在 Android 和 iOS 上的通知配置，包括免打扰、按联系人/群组自定义、消息预览隐私、通知音设置，以及"Signal 不弹通知"的排查方法。Signal 作为目前最安全的[加密聊天软件](/)之一，通知系统的灵活性也体现了它对用户隐私体验的重视。如果你需要先了解 Signal 的基础设置，可以看这篇 [Signal 初次设置完整指南](/guides/setup/)。
 
 ## Signal 通知系统的整体结构
 
@@ -57,7 +57,7 @@ Signal 设置 > 通知 > 消息预览，三个选项：
 - **显示名称**：只显示"某某给你发了消息"，不显示内容
 - **不显示**：只显示"收到 Signal 消息"，不显示发送者和内容
 
-如果你在意隐私，建议设成"显示名称"或者"不显示"。这样手机放在桌上别人扫一眼通知栏也看不到你在聊什么。关于更多隐私设置，可以看 [Signal 隐私设置完全指南](/guides/signal-privacy-settings/)和 [Signal 安全吗](/safety/is-signal-safe/)这篇文章提到的消息预览隐私风险。
+如果你在意隐私，建议设成"显示名称"或者"不显示"。这样手机放在桌上别人扫一眼通知栏也看不到你在聊什么。关于更多隐私设置，可以看 [Signal 隐私设置完全指南](/guides/privacy-settings/)和 [Signal 安全吗](/safety/is-signal-safe/)这篇文章提到的消息预览隐私风险。
 
 ### 通知音和震动
 
@@ -174,4 +174,4 @@ iOS 的专注模式比 Signal 自带的勿扰模式更强大，因为可以按�
 
 如果你按照上面排查了所有步骤 Signal 仍然不弹通知，最后的手段是卸载重装 Signal 并重新授予通知权限。极少数情况下 Signal 的通知数据库会损坏，重装可以解决。
 
-相关推荐：[Signal 多设备同时登录教程](/guides/signal-multi-device-guide/) · [Signal 消息撤回与删除指南](/guides/signal-recall-delete-guide/)
+相关推荐：[Signal 多设备同时登录教程](/guides/signal-multi-device-guide/) · [Signal 消息撤回与删除指南](/guides/signal-recall-delete-message/)

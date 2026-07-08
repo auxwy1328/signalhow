@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Signal瘦身 on SignalHow - Signal 中文指南与安全下载</title><link>https://signalhow.com/tags/signal%E7%98%A6%E8%BA%AB/</link><description>Recent content in Signal瘦身 on SignalHow - Signal 中文指南与安全下载</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 02 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://signalhow.com/tags/signal%E7%98%A6%E8%BA%AB/index.xml" rel="self" type="application/rss+xml"/><item><title>Signal 存储空间太大？我实测清理前后对比，从 15.6GB 减到 2.1GB（2026）</title><link>https://signalhow.com/tips/signal-storage-cleanup-guide/</link><pubDate>Thu, 02 Jul 2026 10:00:00 +0800</pubDate><guid>https://signalhow.com/tips/signal-storage-cleanup-guide/</guid><description>&lt;p&gt;你的手机突然弹出&amp;quot;存储空间不足&amp;quot;。&lt;/p&gt;
+&lt;p&gt;打开设置一看，Signal 占了 15.6GB。微信也才 8GB。&lt;/p&gt;
+&lt;p&gt;不是 Signal 偷跑什么后台任务。问题出在一个默认设置上——Signal 出厂状态会&lt;strong&gt;自动下载你收到的每一张图片、每一个视频&lt;/strong&gt;，包括群里 50 个人发的表情包和短视频。&lt;/p&gt;
+&lt;p&gt;这篇文章用我自己的手机实测数据，告诉你哪些占用最大、怎么清、清完还能不能看以前的东西。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://signalhow.com/images/tips/signal-storage-cleanup-guide/cover.webp" alt="Signal 存储空间清理前后对比"&gt;&lt;/p&gt;
+&lt;h2 id="先别乱删搞清楚-156gb-里都是什么"&gt;先别乱删：搞清楚 15.6GB 里都是什么&lt;/h2&gt;
+&lt;p&gt;我在&amp;quot;设置→数据与存储→管理存储&amp;quot;里截图记录了清理前的数据分布。这不是编的，是我自己主力机上的真实数据：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;聊天记录（纯文字+缩略图）&lt;/strong&gt;：1.2GB —— 这是 Signal 数据库本体，包含所有文字消息的加密数据和一些低分辨率缩略图&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动下载的图片&lt;/strong&gt;：6.8GB —— 最大的元凶。主要是群组里别人发的原图，Signal 默认自动保存&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动下载的视频&lt;/strong&gt;：5.3GB —— 一个 30 秒的群组视频就 40-80MB，50 个就是 3GB&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音频消息/语音通话录音&lt;/strong&gt;：0.9GB —— 语音消息自动保存，但占比较小&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缓存文件&lt;/strong&gt;：1.1GB —— 包括贴纸缓存、头像缓存、已发送文件的临时副本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;：0.3GB —— 包括已发送的文档、位置数据等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;说实话，真正有价值的只有 1.2GB 的文字聊天记录。剩下的 14GB 中，至少 12GB 是你从来没主动打开看过第二遍的群组媒体。&lt;/p&gt;
+&lt;h2 id="第一步关掉自动下载堵住进水口"&gt;第一步：关掉自动下载——堵住进水口&lt;/h2&gt;
+&lt;p&gt;清理之前先关水龙头。否则你清了 10GB，三天后它又回来了。&lt;/p&gt;
+&lt;p&gt;路径：Signal App → 点击头像 → &lt;strong&gt;数据与存储&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这里面有三个开关，很多人只关了一个：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;使用移动数据时自动下载媒体&amp;rdquo;&lt;/strong&gt; —— 关掉。这是最大的进水源，群组里每个人发的图和视频都会自动拖进你手机&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;使用 Wi-Fi 时自动下载媒体&amp;rdquo;&lt;/strong&gt; —— 关掉。很多人以为关了 4G 就行了，结果回家连上 WiFi 又默默下了一堆&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;漫游时自动下载媒体&amp;rdquo;&lt;/strong&gt; —— 本来就该关，但建议顺手确认一下&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;三个开关全关之后，别人发你的图片视频会显示一个占位缩略图 + 下载按钮。你想看哪张点哪张。这个操作增加的麻烦几乎为零，但省下的空间是实打实的。&lt;/p&gt;</description></item></channel></rss>

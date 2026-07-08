@@ -71,7 +71,7 @@
     {{- with .Params.tags }}
     <div class="article-tags">
       {{- range . }}
-      <a href="/tags/{{ . | urlquery }}/" class="article-tag-item">{{ . }}</a>
+      <a href="/tags/{{ . | urlize | urlquery }}/" class="article-tag-item">{{ . }}</a>
       {{- end }}
     </div>
     {{- end }}
