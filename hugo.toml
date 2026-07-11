@@ -62,3 +62,8 @@ enableGitInfo = true
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
   section = ['HTML', 'RSS']
+
+[params.indexnow]
+  enabled = true
+  key = "e4d99d9b3810de318ef8e1bbd764594a"
+  ping = "https://api.indexnow.org/IndexNow"
